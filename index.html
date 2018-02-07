@@ -1,42 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://unpkg.com/hack@0.8.0/dist/hack.css">
-  <link rel="stylesheet" href="https://unpkg.com/hack@0.8.0/dist/standard.css">
-  <title>Document</title>
+	<title>Michael Barnes | Portfolio</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/icon.png">
+    <link rel="icon" type="image/png" href="/assets/icons/icon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/icons/icon.png" sizes="16x16">
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="stylesheet" href="/css/main.css"
 </head>
+
 <body>
-  <div class="paper container">
-    <h1>Some Fresh Title</h1>
-<form class="form">
-  <fieldset class="form-group">
-    <label for="username">USERNAME:</label>
-    <input id="username" type="text" placeholder="type your name..." class="form-control">
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="email">EMAIL:</label>
-    <input id="email" type="email" placeholder="" class="form-control">
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="country">COUNTRY:</label>
-    <select id="country" class="form-control">
-      <option>China</option>
-      <option>U.S.</option>
-      <option>U.K.</option>
-      <option>Japan</option>
-    </select>
-  </fieldset>
-  <fieldset class="form-group form-textarea">
-    <label for="message">MESSAGE:</label>
-    <textarea id="message" rows="5" class="form-control"></textarea>
-  </fieldset>
-  <div class="form-actions">
-    <button type="button" class="btn btn-primary btn-block">Submit</button>
-  </div>
-</form>
-  </div>
+
+    <div class="page" id="main">
+        <h1>I am <br><span class="name">Michael Barnes</span></h1>
+        <h5><i>WEB DEVELOPER | .NET | Python | Javascript</i></h5>
+        <h2>ABOUT ME</h2>
+
+        <p> Hi! My name is Michael and I'm a former structural engineer. I've
+          designed and analyzed many NYC structures throughout my professional
+          career. From analyzing a Christopher Wool sculpture for the
+          Guggenheim museum to renovating the historic Woolworth Building.</p>
+
+        <p>Now, I'm now pursuing web development. My focus is on the backend,
+          but I'm comfortable with the frontend. Topics that interest me:
+          Domain Driven Design, CQRS, databases, microservices, and SPAs. </p>
+
+        <p>My hobbies are drawing and photography. My artwork:<a href="http://cargocollective.com/msbarnes/Me-1"> Art
+            Portfolio</a>.
+
+        <h2>SKILLS</h2>
+
+        <h3>Backend Frameworks</h3> <p> I started off with ASP.NET Core(C#)
+          then picked up Mono/Suave(F#), Nest/Express(Typescript),
+          Flask(Python), and a bit of Luminus(Clojure). I have written 
+          several (personal) MVC and API projects, mostly mini social
+          networks and ecommerce shops.</p>
+
+        <h3>Databases and Data Mappers</h3> <p> PostgreSQL is my go-to RDBMS
+          and I'm alright with hand-written SQL. As for NOSQL databases, my
+          preferred document database is PostgreSQL(Bson) but I've also used MongoDB, Firebase,
+          and ElasticSearch. The data mappers that I use are: EF Core(.NET),
+          Dapper(.NET), Marten(.NET), SQLProviders(F#/MONO),
+          SQLAlchemy(Python), TypeORM(Node), and Mongoose(Node). 
+
+         <h3>Frontend Frameworks</h3> <p> JQuery, and Vanilla JS. Sometimes I
+           use React/Redux and Angular/Ngrx. I've used several UI
+           Toolkits/Frameworks including Bootstrap 4, Semantic UI, UI Kit,
+           Bulma, Material 2 (Angular), and Ant Design (React). I manage my
+           builds with Webpack.</p>
+
+         <h3>Development Environment</h3> <p> Ubuntu+i3+Tmux+Fish+Git+NeoVim
+           with services running in Docker containers.</p>
+
+        <div class="btns">
+            <a href="#projects"><button class="nav-btn">Projects</button></a>
+            <a href="#publications" hidden><button class="nav-btn">Skills</button></a>
+        </div>
+    </div>
+
+    <div class="page" id="publications">
+        <h2>Here are some of my skills</h2>
+        <div class="pub-list"></div>
+    </div>
+
+    <div class="page" id="projects">
+        <h2>Here are some of my best projects</h2>
+
+        <p>Note that all projects are <b><i>in-progress</i></b> as I'm continously 
+          adding features. An expanded list of the tech stack is provided in
+          the Github README.</p>
+
+        <div class="pro-list"></div>
+    </div>
+
 </body>
+
+<script src="js/main.js"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-41041173-4');
+</script>
+
+
 </html>
