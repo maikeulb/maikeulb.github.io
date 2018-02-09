@@ -3,7 +3,7 @@
 		{
 			"name": "Photo Exhibiter",
 			"technologies": "ASP.NET Core 2.0, EF Core 2.0, Identity Framework, Bootstrap 4",
-			"description": "A social network for photographers. Features include:  browse, post, edit, cancel(soft delete) exhibits, attend/unattend exhibits, and notifications. The project is written with a CQRS/DDD inspired architecture.", 
+			"description": "A social network for photographers. Features include:  browse, post, edit, cancel(soft delete) exhibits, attend/unattend exhibits, and notifications. Architecture: CQRS/DDD inspired.", 
 			"link": "",
 			"linkType": "Live",
 			"github": ""
@@ -11,7 +11,7 @@
 		{
 			"name": "Rollei Shop",
 			"technologies": "ASP.NET Core 2.0, EF Core 2.0, Identity Framework, Semantic UI",
-			"description": "An ecommerce shop. Features include: Browse catalog, manage shopping cart, and checkout order. The project is written with a CQRS/DDD inspired architecture.",
+			"description": "An ecommerce shop. Features include: Browse catalog, manage shopping cart, and checkout order. Architecture: CQRS/DDD inspired.",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
