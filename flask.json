@@ -1,0 +1,20 @@
+{
+	"projects": [
+		{
+			"name": "SimpleBlog",
+			"technologies": "Flask(Python), SQLAlchemy, ElasticSearch, Semantic UI",
+			"description": "A mini blogging platform. Features include: browse, post, edit, delete, and search  blog posts, follow/unfollow bloggers, send private messages, and notifications." ,
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+		{
+			"name": "Filmogram",
+			"technologies": "Flask(Python), SQLAlchemy, UI Kit",
+			"description": "A social network similar to instagram/flickr. Features include: browse and post photos, like photos, comment on photos, follow/unfollow other users, and notifications. ",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		}
+	]
+}

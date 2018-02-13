@@ -1,0 +1,36 @@
+{
+	"projects": [
+		{
+			"name": "Photo Exhibiter",
+			"technologies": "ASP.NET Core 2.0, EF Core 2.0, Identity Framework, Bootstrap 4",
+			"description": "A social network for photographers. Features include:  browse, post, edit, cancel(soft delete), and search exhibits, attend/unattend exhibits, and notifications. Architecture: CQRS/DDD inspired.", 
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+		{
+			"name": "Rollei Shop",
+			"technologies": "ASP.NET Core 2.0, EF Core 2.0, Identity Framework, Semantic UI",
+			"description": "An ecommerce shop. Features include: Browse catalog, manage shopping cart, checkout order, browse order history. Architecture: CQRS/DDD inspired.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+		{
+			"name": "Dapper University",
+			"technologies": "ASP.NET Core 2.0, Dapper, Spectre",
+			"description": "The wonderful Contoso University sample project, written in dapper.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+		{
+			"name": "Growler",
+			"technologies": "MONO/Suave(F#), SQL Type Providers, UI Kit",
+			"description": "A social network similar to twitter. Features include: browse and send growls, follow users.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"projects": [
+		{
+			"name": "RangeFinder Review",
+			"technologies": "Nest/Express(Typescript), TypeORM, MaterializeCSS",
+			"description": "A review webiste. Features include: browse, submit, edit, and delete reviews, comment on reviews.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+		{
+			"name": "Leica Shop",
+			"technologies": "Nest/Express(Typescript), TypeORM, MaterializeCSS",
+			"description": "An ecommerce shop.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		}
+	]
+}
