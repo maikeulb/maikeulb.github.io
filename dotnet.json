@@ -3,7 +3,7 @@
 		{
 			"name": "Photo Exhibiter",
 			"technologies": "ASP.NET Core 2.0, EF Core 2.0, Identity Framework, Bootstrap 4",
-			"description": "A social network for photographers. Features include:  browse, post, edit, cancel(soft delete), and search exhibits, attend/unattend exhibits, and notifications. Architecture: CQRS/DDD inspired.", 
+			"description": "A social network for photographers written with a CQRS/DDD inspired architecture. <p>Functionality: <ul><li>browse unexpired exhibits</li><li>post/edit/cancel(soft delete)/search exhibits</li><li>attend/unattend exhibits</li><li>notifications (when someone cancels or changes an exhibit)</li></ul></p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
@@ -11,23 +11,23 @@
 		{
 			"name": "Rollei Shop",
 			"technologies": "ASP.NET Core 2.0, EF Core 2.0, Identity Framework, Semantic UI",
-			"description": "An ecommerce shop. Features include: Browse catalog, manage shopping cart, checkout order, browse order history. Architecture: CQRS/DDD inspired.",
+			"description": "An ecommerce shop written with a CQRS/DDD inspired architecture. <p>Functionality: <ul><li>browse product catalog</li><li>manage product catalog (admin feature)</li><li>manage shopping cart</li><li>checkout order</li><li>browse order history</li><ul></p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
 		{
 			"name": "Dapper University",
-			"technologies": "ASP.NET Core 2.0, Dapper, Spectre",
-			"description": "The wonderful Contoso University sample project, written in dapper.",
+			"technologies": "ASP.NET Core 2.0, Dapper, Flyway, Spectre",
+			"description": "The wonderful Contoso University <a href='https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro'>sample project</a> written in dapper (and Spectre for UI). <p>Functionality: <ul><li>manage students</li><li> manage instructors</li><li>manage courses</li><li>manage departments</li></ul></p><p>All features are complete except for instructor course assignments and filter/sort/paging (on my TODO list). I also have plans to add identity(using dapper in lieu of entity) for authentication.</p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
 		{
-			"name": "Growler",
-			"technologies": "MONO/Suave(F#), SQL Type Providers, UI Kit",
-			"description": "A social network similar to twitter. Features include: browse and send growls, follow users.",
+			"name": "DevConf (In Progress)",
+			"technologies": "ASP.NET Core 2.0",
+			"description": "An in-progress, service-oriented conference planning app. An MVC project powered by a restful API project.",
 			"link": "",
 			"linkType": "Live",
 			"github": ""

@@ -1,0 +1,20 @@
+{
+	"projects": [
+		{
+			"name": "Growler",
+			"technologies": "MONO/Suave(F#), SQL Type Providers, UI Kit",
+			"description": "A social network similar to twitter.<p>Functionality:<ul><li> browse/send growls</li><li>follow users</li><li>user feed powered by Stream 3rd party Api</li></ul></p>",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+		{
+			"name": "PointAndShoot (In Progress)",
+			"technologies": "MONO/Suave(F#), SQL Type Providers",
+			"description": "An in-progress ecommerce app.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		}
+	]
+}

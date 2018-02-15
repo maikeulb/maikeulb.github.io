@@ -3,7 +3,7 @@
 		{
 			"name": "SimpleBlog",
 			"technologies": "Flask(Python), SQLAlchemy, ElasticSearch, Semantic UI",
-			"description": "A mini blogging platform. Features include: browse, post, edit, delete, and search  blog posts, follow/unfollow bloggers, send private messages, and notifications." ,
+			"description": "A mini blogging platform. <p>Functionality: <ul><li>browse/post/edit/delete/search(full-text) blog posts</li><li>follow/unfollow bloggers</li><li>send private messages</li><li>message notifications</li></ul></p>" ,
 			"link": "",
 			"linkType": "Live",
 			"github": ""
@@ -11,7 +11,15 @@
 		{
 			"name": "Filmogram",
 			"technologies": "Flask(Python), SQLAlchemy, UI Kit",
-			"description": "A social network similar to instagram/flickr. Features include: browse and post photos, like photos, comment on photos, follow/unfollow other users, and notifications. ",
+			"description": "A social network similar to instagram/flickr. <p>Functionality: <ul><li>browse/post photos</li><li>like/unlike photos</li><li>comment on photos</li><li>follow/unfollow other users</li><li>notifications (when someone likes your photo)</li></ul></p>",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+		{
+			"name": "LeicaRentals",
+			"technologies": "Flask(Python), SQLAlchemy, Bulma",
+			"description": "Backend for a lens rental shop. <p>Functionality: <ul><li>manage lens catalog</li><li>manage customer catalog</li><li>manage rentals</li></ul></p>I have future plans to add admin authorization.",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
