@@ -1,8 +1,8 @@
 {
 	"projects": [
 		{
-			"name": "RangeFinder Review",
-			"technologies": "Nest/Express(Typescript), PassportJS, TypeORM, MaterializeCSS",
+			"name": "Rangefinder Review",
+			"technologies": "Nest/Express(Typescript), PassportJS, Mongoose, MaterializeCSS",
 			"description": "A camera review webiste written in Typescript.<p> Functionality: <ul><li>browse/submit/edit/delete reviews</li><li>comment on reviews</li></ul></p>",
 			"link": "",
 			"linkType": "Live",

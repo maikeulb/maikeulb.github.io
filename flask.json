@@ -3,7 +3,7 @@
 		{
 			"name": "SimpleBlog",
 			"technologies": "Flask(Python), SQLAlchemy, ElasticSearch, Semantic UI",
-			"description": "A mini blogging platform. <p>Functionality: <ul><li>browse/post/edit/delete/search(full-text) blog posts</li><li>follow/unfollow bloggers</li><li>send private messages</li><li>message notifications</li></ul></p>" ,
+			"description": "A mini blogging platform. <p>Functionality: <ul><li>browse/post/edit/delete/blog posts</li><li>search(full-text) blog posts</li><li>user profiles</li><li>follow/unfollow bloggers</li><li>send private messages</li><li>message notifications</li></ul></p>" ,
 			"link": "",
 			"linkType": "Live",
 			"github": ""
@@ -11,7 +11,7 @@
 		{
 			"name": "Filmogram",
 			"technologies": "Flask(Python), SQLAlchemy, UI Kit",
-			"description": "A social network similar to instagram/flickr. <p>Functionality: <ul><li>browse/post photos</li><li>like/unlike photos</li><li>comment on photos</li><li>follow/unfollow other users</li><li>notifications (when someone likes your photo)</li></ul></p>",
+			"description": "A social network similar to instagram/flickr. <p>Functionality: <ul><li>browse/post photos</li><li>like/unlike photos</li><li>comment on photos</li><li>user profiles</li><li>follow/unfollow other users</li><li>notifications (when someone likes your photo)</li></ul></p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
