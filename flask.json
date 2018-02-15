@@ -2,27 +2,47 @@
 	"projects": [
 		{
 			"name": "SimpleBlog",
-			"technologies": "Flask(Python), SQLAlchemy, ElasticSearch, Semantic UI",
-			"description": "A mini blogging platform. <p>Functionality: <ul><li>browse/post/edit/delete/blog posts</li><li>search(full-text) blog posts</li><li>user profiles</li><li>follow/unfollow bloggers</li><li>send private messages</li><li>message notifications</li></ul></p>" ,
+			"technologies": "Flask, PostgreSQL/SQLAlchemy, ElasticSearch, Semantic UI",
+			"description": "Mini blogging platform. <p>Functionality: <ul><li>Browse, post, edit, and delete blog posts.</li><li>Search(full-text) blog posts.</li><li>User profiles.</li><li>Follow/unfollow bloggers</li><li>Send private messages.</li><li>Message notifications.</li></ul></p<p>Features: <ul><li>Authorization (session cookies).</li><li>Localization (TODO).</li><li>Restful API (for Ajax).</li><li></li></ul></p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
 		{
 			"name": "Filmogram",
-			"technologies": "Flask(Python), SQLAlchemy, UI Kit",
-			"description": "A social network similar to instagram/flickr. <p>Functionality: <ul><li>browse/post photos</li><li>like/unlike photos</li><li>comment on photos</li><li>user profiles</li><li>follow/unfollow other users</li><li>notifications (when someone likes your photo)</li></ul></p>",
+			"technologies": "Flask, PostgreSQL/SQLAlchemy, UI Kit",
+			"description": "Social network similar to instagram/flickr. <p>Functionality: <ul><li>Browse and post photos.</li><li>Comment on photos.</li><li>Like/unlike photos.</li><li>Follow/unfollow users.</li><li>User profiles.</li><li>User notifications (when someone likes your photo).</li></ul></p><p>Features: <ul><li>Authorization (session cookies).</li><li>Restful API (for Ajax).</li><li></li></ul></p><p>TODO: Manage Inventory</p>",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+
+		{
+			"name": "LeicaRentals",
+			"technologies": "Flask, PostgreSQL/SQLAlchemy, Bootstrap 4, DataTables, TypeAhead",
+			"description": "Lens rental app. <p>Functionality: <ul><li>Manage lens catalog.</li><li>Manage customer catalog.</li><li>Manage lens rentals.</li></ul></p> <p> Features: <ul><li>Authorization (session cookies).</li><li>DataTables for easy inventory management.</li><li>Typeahead for autocompleting rental form.</li><li>Restful Api (for Ajax).</li></ul></p><p>TODO:available lenses.</p> ",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+
+		{
+			"name": "CandyShop",
+			"technologies": "Flask, PostgreSQL/SQLAlchemy, Bulma, DataTables, TypeAhead",
+			"description": "Ecommerce shop.TODO",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
 		{
-			"name": "LeicaRentals",
-			"technologies": "Flask(Python), SQLAlchemy, Bulma",
-			"description": "Backend for a lens rental shop. <p>Functionality: <ul><li>manage lens catalog</li><li>manage customer catalog</li><li>manage rentals</li></ul></p>I have future plans to add admin authorization.",
+			"name": "ContosoUniversity API or Library API",
+			"technologies": "Flask, PostgreSQL/SQLAlchemy, Bulma, DataTables, TypeAhead",
+			"description": "Ideas: ContosoUniversity(React), Express/Dotnet contact manager(Angular), Or Library, or Plural(dotnet)",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		}
+
+
 	]
 }

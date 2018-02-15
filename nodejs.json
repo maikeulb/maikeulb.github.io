@@ -2,16 +2,16 @@
 	"projects": [
 		{
 			"name": "Rangefinder Review",
-			"technologies": "Nest/Express(Typescript), PassportJS, Mongoose, MaterializeCSS",
-			"description": "A camera review webiste written in Typescript.<p> Functionality: <ul><li>browse/submit/edit/delete reviews</li><li>comment on reviews</li></ul></p>",
+			"technologies": "Nest, MongoDb/Mongoose, Passport, MaterializeCSS",
+			"description": "Camera review website<p> Functionality: <ul><li>browse/submit/edit/delete reviews</li><li>comment on reviews</li></ul></p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
 		{
 			"name": "Leica Shop (In Progress)",
-			"technologies": "Nest/Express(Typescript), PassportJS, TypeORM, Bulma",
-			"description": "An in-progress ecommerce app.",
+			"technologies": "Nest, PostgreSQL/TypeORM, Passport, Bulma",
+			"description": "In-progress ecommerce app.",
 			"link": "",
 			"linkType": "Live",
 			"github": ""

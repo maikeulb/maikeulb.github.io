@@ -2,24 +2,24 @@
 	"projects": [
 		{
 			"name": "Photo Exhibiter",
-			"technologies": "ASP.NET Core 2.0, EF Core 2.0, Identity Framework, Bootstrap 4",
-			"description": "A social network for photographers written with a CQRS/DDD inspired architecture. <p>Functionality: <ul><li>browse upcoming exhibits(past exhibits expire)</li><li>post/edit/cancel(soft delete) exhibits</li><li>search for upcoming exhibits</li><li>attend/unattend exhibits</li><li>follow/unfollow photographers</li><li>notifications (when someone cancels or changes an exhibit)</li></ul></p>",
+			"technologies": "ASP.NET Core 2.0, MySQL/EF Core 2.0, Identity Framework, Bootstrap 4",
+			"description": "Social network for photographers.<p>Functionality: <ul><li>Browse upcoming exhibits(past exhibits expire).</li><li>Post, Edit, and Cancel(soft delete) exhibits.</li><li>Search for upcoming exhibits.</li><li>Attend/unattend exhibits.</li><li>Follow/unfollow photographers.</li><li>User notifications (triggered when someone cancels or changes an exhibit).</li></ul></p><p>Features:<ul><li>Authentication provided by Identity Framework.</li><li>Rich Domain Model with Encapsulated Collections and Operations.</li><li>Thin Controllers with CQRS Architecture.</li></ul></p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
 		{
 			"name": "Rollei Shop",
-			"technologies": "ASP.NET Core 2.0, EF Core 2.0, Identity Framework, Semantic UI",
-			"description": "An ecommerce shop written with a CQRS/DDD inspired architecture. <p>Functionality: <ul><li>browse product catalog</li><li>manage product catalog (admin feature)</li><li>manage shopping cart</li><li>checkout order</li><li>browse order history</li></ul></p>",
+			"technologies": "ASP.NET Core 2.0, PostgreSQL/EF Core 2.0, Identity Framework, Semantic UI",
+			"description": "Ecommerce shop. <p>Functionality: <ul><li>Browse product catalog.</li><li>Manage product catalog (admin feature).</li><li>Manage shopping cart.</li><li>Checkout order and browse order history.</li></ul></p><p>Features:<ul><li>Authentication and authorization provided by Identiy Framework.</li><li>Server-side pagination.</li><li>Rich domain model with encapsulated collections and operations.</li><li>Thin controllers with CQRS architecture.</li></ul></p><p><TODO: Admin, CQRS, Redis</p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
 		{
 			"name": "Dapper University",
-			"technologies": "ASP.NET Core 2.0, Dapper, Flyway, Spectre",
-			"description": "The wonderful Contoso University <a href='https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro'>sample project</a> written in dapper (and Spectre for UI). <p>Functionality: <ul><li>manage students</li><li> manage instructors</li><li>manage courses</li><li>manage departments</li></ul></p><p>All features are complete except for instructor course assignments and filter/sort/paging (on my TODO list). I also have plans to add identity(using dapper in lieu of entity) for authentication.</p>",
+			"technologies": "ASP.NET Core 2.0, PostgreSQL/Dapper, Flyway, Bulma",
+			"description": "The wonderful Contoso University <a href='https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro'>sample project</a> written in Dapper (and Bulma for the UI). <p>Functionality: <ul><li>Manage Students.</li><li> Manage Instructors.</li><li>Manage Courses.</li><li>Manage Departments.</li></ul></p><p>All features are complete except for instructor course assignments and filter/sort/pagination (on my TODO list). I also have plans to add Identity Framework(using Dapper in lieu of Entity) for authentication.</p><p>TODO:Paging, Autho, Admin </p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
@@ -27,7 +27,15 @@
 		{
 			"name": "DevConf (In Progress)",
 			"technologies": "ASP.NET Core 2.0",
-			"description": "An in-progress, service-oriented conference planning app. An MVC project powered by a restful API project.",
+			"description": "In-progress, service-oriented conference planning app. An MVC project powered by a restful API project.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+		{
+			"name": "Library API (In Progress)",
+			"technologies": "ASP.NET Core 2.0",
+			"description": "In-progress, library API.",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
