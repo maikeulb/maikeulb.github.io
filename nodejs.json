@@ -8,6 +8,7 @@
 			"linkType": "Live",
 			"github": ""
 		},
+
 		{
 			"name": "Leica Shop (In Progress)",
 			"technologies": "Nest, PostgreSQL/TypeORM, Passport, Bulma",

@@ -11,7 +11,7 @@
 		{
 			"name": "Rollei Shop",
 			"technologies": "ASP.NET Core 2.0, PostgreSQL/EF Core 2.0, Identity Framework, Semantic UI",
-			"description": "Ecommerce shop. <p>Functionality: <ul><li>Browse product catalog.</li><li>Manage product catalog (admin feature).</li><li>Manage shopping cart.</li><li>Checkout order and browse order history.</li></ul></p><p>Features:<ul><li>Authentication and authorization provided by Identiy Framework.</li><li>Server-side pagination.</li><li>Rich domain model with encapsulated collections and operations.</li><li>Thin controllers with CQRS architecture.</li></ul></p><p><TODO: Admin, CQRS, Redis</p>",
+			"description": "Ecommerce shop. <p>Functionality: <ul><li>Browse product catalog.</li><li>Manage product catalog (admin feature).</li><li>Manage shopping cart.</li><li>Checkout order and browse order history.</li></ul></p><p>Features:<ul><li>Authentication and authorization provided by Identiy Framework.</li><li>Server-side pagination.</li><li>Rich domain model with encapsulated collections and operations.</li><li>Thin controllers with CQRS architecture.</li></ul></p><p><TODO: Admin, CQRS, Redis</p><p>Add Redis and Fully Deploy project</p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
@@ -33,7 +33,70 @@
 			"github": ""
 		},
 		{
-			"name": "Library API (In Progress)",
+			"name": "Magnum Photos RESTful API",
+			"technologies": "ASP.NET Core 2.0, PostgreSQL/EF Core2.0",
+			"description": "Toy Restful API for <a href = https://www.magnumphotos.com/>Magnum Photos</a></li> with level 2 maturity. The resources are the agency's photographers and their photography books. The API is documented with Swagger through Swashbuckle. <p>Features: <ul><li>Get single, child, and collection resources.</li><li>Create/Delete single, child, and collection resources. <li>Put/Patch child resources for full updates, partial updates, and upserts.</li><li>Validation and error/fault handling.</li><li>Paging, filtering, ordering, and sorting.</li><li>Http caching and rate limiting.</li></ul></p><p>todo:logging to file; hypermedia; swashbuckle</p>",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+
+		{
+			"name": "Marten API + Angular",
+			"technologies": "ASP.NET Core 2.0",
+			"description": "In-progress, library API.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+
+		{
+			"name": "DateME API (TODO) + Angular",
+			"technologies": "ASP.NET Core 2.0 or Flask",
+			"description": "In-progress, library API.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+
+		{
+			"name": "35cc API (In Progress) + Angular",
+			"technologies": "ASP.NET Core 2.0",
+			"description": "In-progress, library API.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+
+		{
+			"name": "CodeCamp API ToDo",
+			"technologies": "ASP.NET Core 2.0",
+			"description": "In-progress, library API.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+
+		{
+			"name": "Schedular API ToDo",
+			"technologies": "ASP.NET Core 2.0",
+			"description": "In-progress, library API.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+
+		{
+			"name": "CameraDB Angular (TODO)",
+			"technologies": "ASP.NET Core 2.0",
+			"description": "In-progress, library API.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+
+		{
+			"name": "Marvel API (TODO)",
 			"technologies": "ASP.NET Core 2.0",
 			"description": "In-progress, library API.",
 			"link": "",
