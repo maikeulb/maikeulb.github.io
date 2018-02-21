@@ -3,7 +3,7 @@
 		{
 			"name": "Photo Exhibiter",
 			"technologies": "ASP.NET Core 2.0, MySQL/EF Core 2.0, Identity Framework, Bootstrap 4",
-			"description": "Social network for photographers.<p>Functionality: <ul><li>Browse upcoming exhibits(past exhibits expire).</li><li>Post, Edit, and Cancel(soft delete) exhibits.</li><li>Search for upcoming exhibits.</li><li>Attend/unattend exhibits.</li><li>Follow/unfollow photographers.</li><li>User notifications (triggered when someone cancels or changes an exhibit).</li></ul></p><p>Features:<ul><li>Authentication provided by Identity Framework.</li><li>Rich Domain Model with Encapsulated Collections and Operations.</li><li>Thin Controllers with CQRS Architecture.</li></ul></p>",
+			"description": "Social network for photographers.<p>Functionality: <ul><li>Browse upcoming exhibits(past exhibits expire).</li><li>Post, Edit, and Cancel(soft delete) exhibits.</li><li>Search for upcoming exhibits.</li><li>Attend/unattend exhibits.</li><li>Follow/unfollow photographers.</li><li>User notifications (triggered when someone cancels or changes an exhibit).</li></ul></p><p>Features:<ul><li>Session-based authentication provided by Identity Framework.</li><li>Rich Domain Model with encapsulated collections and operations.</li><li>Thin Controllers with CQRS Architecture.</li></ul></p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
@@ -11,7 +11,7 @@
 		{
 			"name": "Rollei Shop",
 			"technologies": "ASP.NET Core 2.0, PostgreSQL/EF Core 2.0, Identity Framework, Semantic UI",
-			"description": "Ecommerce shop. <p>Functionality: <ul><li>Browse product catalog.</li><li>Manage product catalog (admin feature).</li><li>Manage shopping cart.</li><li>Checkout order and browse order history.</li></ul></p><p>Features:<ul><li>Authentication and authorization provided by Identiy Framework.</li><li>Server-side pagination.</li><li>Rich domain model with encapsulated collections and operations.</li><li>Thin controllers with CQRS architecture.</li></ul></p><p><TODO: Admin, CQRS, Redis</p><p>Add Redis and Fully Deploy project</p>",
+			"description": "Ecommerce shop. <p>Functionality: <ul><li>Browse product catalog.</li><li>Manage product catalog (admin feature).</li><li>Manage shopping cart.</li><li>Checkout order and browse order history.</li></ul></p><p>Features:<ul><li>Session-based Authentication and Authorization provided by Identiy Framework.</li><li>Server-side pagination.</li><li>Rich domain model with encapsulated collections and operations.</li><li>Thin controllers with CQRS architecture.</li></ul></p><p><TODO: Admin, CQRS, Redis</p><p>Add Redis and Fully Deploy project</p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
@@ -19,15 +19,7 @@
 		{
 			"name": "Dapper University",
 			"technologies": "ASP.NET Core 2.0, PostgreSQL/Dapper, Flyway, Bulma",
-			"description": "The wonderful Contoso University <a href='https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro'>sample project</a> written in Dapper (and Bulma for the UI). <p>Functionality: <ul><li>Manage Students.</li><li> Manage Instructors.</li><li>Manage Courses.</li><li>Manage Departments.</li></ul></p><p>All features are complete except for instructor course assignments and filter/sort/pagination (on my TODO list). I also have plans to add Identity Framework(using Dapper in lieu of Entity) for authentication.</p><p>TODO:Paging, Autho, Admin </p>",
-			"link": "",
-			"linkType": "Live",
-			"github": ""
-		},
-		{
-			"name": "DevConf (In Progress)",
-			"technologies": "ASP.NET Core 2.0",
-			"description": "In-progress, service-oriented conference planning app. An MVC project powered by a restful API project.",
+			"description": "The wonderful Contoso University <a href='https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro'>sample project</a> written in Dapper (and Bulma for the UI). <p>Functionality: <ul><li>Manage Students.</li><li> Manage Instructors.</li><li>Manage Courses.</li><li>Manage Departments.</li></ul></p><p>All features are complete except for instructor course assignments. I also have plans to extend the app with Identity Framework(using Dapper in lieu of Entity) for authentication and authorization.</p><p>TODO:Autho, Admin </p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
@@ -35,70 +27,24 @@
 		{
 			"name": "Magnum Photos RESTful API",
 			"technologies": "ASP.NET Core 2.0, PostgreSQL/EF Core2.0",
-			"description": "Toy Restful API for <a href = https://www.magnumphotos.com/>Magnum Photos</a></li> with level 2 maturity. The resources are the agency's photographers and their photography books. The API is documented with Swagger through Swashbuckle. <p>Features: <ul><li>Get single, child, and collection resources.</li><li>Create/Delete single, child, and collection resources. <li>Put/Patch child resources for full updates, partial updates, and upserts.</li><li>Validation and error/fault handling.</li><li>Paging, filtering, ordering, and sorting.</li><li>Http caching and rate limiting.</li></ul></p><p>todo:logging to file; hypermedia; swashbuckle</p>",
+			"description": "Toy Restful API for <a href = https://www.magnumphotos.com/>Magnum Photos</a></li> with level 3 maturity. The resources are the agency's photographers and their photography books. The API is documented with Swagger through Swashbuckle. <p>Features: <ul><li>Get single, child, and collection resources.</li><li>Create/Delete single, child, and collection resources. <li>Put/Patch child resources for full updates, partial updates, and upserts.</li><li>Validation and error/fault handling.</li><li>Paging, filtering, ordering, and sorting.</li><li>Http caching and rate limiting.</li><li>Hypermedia links.</li></ul></p><p>todo:logging to file; hypermedia; swashbuckle</p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
 
 		{
-			"name": "Marten API + Angular",
+			"name": "NYC Museums RESTful API(IN PROGRESS)",
 			"technologies": "ASP.NET Core 2.0",
-			"description": "In-progress, library API.",
+			"description": "Toy Restful API for NYC Museums with level 2 maturity. The resources are museums, artists, and exhibits. <p>Features: <ul><li>Get single, child, and collection resources.</li><li>Create/Delete single, child, and collection resources. <li>Put/Patch child resources for full updates and partial updates.</li><li>Validation and error/fault handling.</li><li>Paging, filtering, ordering, and sorting.</li><li>Http caching and rate limiting.<li>Token-Based Authentication and Authorization</li></li></ul></p><p>TODO:logging to file</p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
-
 		{
-			"name": "DateME API (TODO) + Angular",
-			"technologies": "ASP.NET Core 2.0 or Flask",
-			"description": "In-progress, library API.",
-			"link": "",
-			"linkType": "Live",
-			"github": ""
-		},
-
-		{
-			"name": "35cc API (In Progress) + Angular",
-			"technologies": "ASP.NET Core 2.0",
-			"description": "In-progress, library API.",
-			"link": "",
-			"linkType": "Live",
-			"github": ""
-		},
-
-		{
-			"name": "CodeCamp API ToDo",
-			"technologies": "ASP.NET Core 2.0",
-			"description": "In-progress, library API.",
-			"link": "",
-			"linkType": "Live",
-			"github": ""
-		},
-
-		{
-			"name": "Schedular API ToDo",
-			"technologies": "ASP.NET Core 2.0",
-			"description": "In-progress, library API.",
-			"link": "",
-			"linkType": "Live",
-			"github": ""
-		},
-
-		{
-			"name": "CameraDB Angular (TODO)",
-			"technologies": "ASP.NET Core 2.0",
-			"description": "In-progress, library API.",
-			"link": "",
-			"linkType": "Live",
-			"github": ""
-		},
-
-		{
-			"name": "Marvel API (TODO)",
-			"technologies": "ASP.NET Core 2.0",
-			"description": "In-progress, library API.",
+			"name": "TODO(IDS4)",
+			"technologies": "",
+			"description": "",
 			"link": "",
 			"linkType": "Live",
 			"github": ""

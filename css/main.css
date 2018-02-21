@@ -1,55 +1,130 @@
+/* global */
 html{
   max-width: 40em;
   margin: auto;
   padding: 13px; 
 }
 body{
-	background-color: #000;
+  background-color: #120c0e;
 	color: #fff;
 	font-family: monospace;
 }
-a:link, a:active, a:visited{
-	color: #4CAF50;
-	text-decoration: none;
+img {
+  max-width: 500px; 
 }
+a {
+  text-decoration: none;
+  color: #eb99a1; 
+}
+a:hover {
+  color: #DA4453; 
+}
+
+/* site */
+.site-main {
+  line-height: 1.75;
+  max-width: 720px;
+  margin: auto;
+}
+.fancy-font {
+  font-family: Courier New, Courier, monospace;
+}
+.pull-right {
+  float: right;
+}
+#site-header {
+  overflow: hidden;
+}
+#site-header h1 {
+  font-size: 1.5em;
+  font-family: fancyRoman;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  bottom: -5px;
+}
+#site-header nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+#site-header nav ul li:first-child {
+  float: left;
+}
+#site-header nav ul li {
+  display: inline-block;
+  float: right;
+}
+#site-footer {
+  margin-top: 25px;
+}
+#site-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#site-footer ul li {
+  display: inline-block;
+}
+.site-title {
+  font-size: 1.75em;
+  margin-bottom: 0px;
+}
+.site-title a:hover {
+  text-decoration: none;
+  border: 0px;
+  font-style: italic;
+}
+.site-header .meta {
+  margin-top: 0px;
+}
+
 .main-title{
 	font-size: xx-large;
 }
 .page{
-	padding: 1rem;
 	display: none;
-}
-.btns{
-    text-align: center;
-    margin-top: 3rem;
-}
-.nav-btn{
-    margin: 1rem;
-    border-style: solid;
-    border-color: #4caf50;
-    color: #4CAF50;
-    background-color: #000;
-    font-size: 1rem;
-    padding: 15px;
-    font-family: monospace;
+  line-height: 1.75;
+  max-width: 720px;
+  margin: auto;
 }
 .card{
-	border-style: solid;
-    border-width: 1px;
-    padding: 20px;
-    margin-top: 40px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px;
+  margin-top: 40px;
 }
 .card-title{
 	font-size: -webkit-xxx-large;
 }
+
 .btn{
-	border-style: solid;
-    border-color: #4caf50;
-    color: #4CAF50;
-    background-color: #000;
-    padding: 5px;
-    font-family: monospace;
+  border-style: solid;
+  border-color: #eb99a1;
+  color: #eb99a1;
+  background-color: #120c0e;
+  padding: 5px;
+  font-family: monospace;
 }
-footer{
-	text-align: center !important;
+.btns{
+  text-align: center;
+  margin-top: 3rem;
+}
+.nav-btn{
+  margin: 1rem;
+  border-style: solid;
+  border-color: #eb99a1;
+  color: #eb99a1;
+  background-color: #120c0e;
+  font-size: 1rem;
+  padding: 15px;
+  font-family: monospace;
+}
+
+#home-post-header {
+  border-bottom: 0px;
+}
+
+.post-title {
+  margin-bottom: 5px;
 }

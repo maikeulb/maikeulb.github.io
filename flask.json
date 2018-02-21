@@ -3,7 +3,7 @@
 		{
 			"name": "SimpleBlog",
 			"technologies": "Flask, PostgreSQL/SQLAlchemy, ElasticSearch, Semantic UI",
-			"description": "Mini blogging platform. <p>Functionality: <ul><li>Browse, post, edit, and delete blog posts.</li><li>Search(full-text) blog posts.</li><li>User profiles.</li><li>Follow/unfollow bloggers</li><li>Send private messages.</li><li>Message notifications.</li></ul></p<p>Features: <ul><li>Authorization (session cookies).</li><li>Localization (TODO).</li><li>Restful API (for Ajax).</li><li></li></ul></p><p>Fully deploy project</p>",
+			"description": "Mini blogging platform. <p>Functionality: <ul><li>Browse, post, edit, and delete blog posts.</li><li>Search(full-text) blog posts.</li><li>User profiles.</li><li>Follow/unfollow bloggers.</li><li>Send private messages.</li><li>Message notifications.</li></ul></p<p>Features: <ul><li>Session-based authentication.</li><li>Localization (TODO).</li></ul></p><p>Fully deploy project</p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
@@ -11,7 +11,7 @@
 		{
 			"name": "Filmogram",
 			"technologies": "Flask, PostgreSQL/SQLAlchemy, UI Kit",
-			"description": "Social network similar to instagram/flickr. <p>Functionality: <ul><li>Browse and post photos.</li><li>Comment on photos.</li><li>Like/unlike photos.</li><li>Follow/unfollow users.</li><li>User profiles.</li><li>User notifications (when someone likes your photo).</li></ul></p><p>Features: <ul><li>Authorization (session cookies).</li><li>Restful API (for Ajax).</li><li></li></ul></p><p>TODO: Manage Inventory</p>",
+			"description": "Social network similar to instagram/flickr. <p>Functionality: <ul><li>Browse and post photos.</li><li>Comment on photos.</li><li>Like/unlike photos.</li><li>Follow/unfollow users.</li><li>User profiles.</li><li>User notifications (when someone likes your photo).</li></ul></p><p>Features: <ul><li>Session based authentication.</li></ul></p><p>TODO: Manage Inventory</p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
@@ -19,12 +19,19 @@
 		{
 			"name": "LeicaRentals",
 			"technologies": "Flask, PostgreSQL/SQLAlchemy, Bootstrap 4, DataTables, TypeAhead",
-			"description": "Lens rental app. <p>Functionality: <ul><li>Manage lens catalog.</li><li>Manage customer catalog.</li><li>Manage lens rentals.</li></ul></p> <p> Features: <ul><li>Authorization (session cookies).</li><li>DataTables for easy inventory management.</li><li>Typeahead for autocompleting rental form.</li><li>Restful Api (for Ajax).</li></ul></p><p>TODO:available lenses.</p> ",
+			"description": "Lens rental app. <p>Functionality: <ul><li>Manage lens catalog.</li><li>Manage customer catalog.</li><li>Manage lens rentals.</li></ul></p> <p> Features: <ul><li>Session-based Authentication.</li><li>DataTables for inventory management.</li><li>Typeahead for rental form.</li></ul></p><p>TODO:available lenses.</p> ",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
-
+		{
+			"name": "CitySkyscrapers API",
+			"technologies": "Flask, PostgreSQL/SQLAlchemy",
+			"description": "Toy Restful API for City Skyscrapers with level 3 maturity (hypermedia). The resources are cities and their landmarks. <p>Features: <ul><li>Get single and child resources.</li><li>Create/Delete single and child resources. <li>Put/Patch child resources for full updates and partial updates.</li><li>Validation and error/fault handling.</li><li>TODO:Paging, filtering, ordering, and sorting.</li><li>TODO: Http caching and rate limiting.<li>TODO: Token-Based Authentication and Authorization</li></li></ul></p><p>TODO:logging to file</p>",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
 		{
 			"name": "CandyShop (TODO)",
 			"technologies": "Flask, PostgreSQL/SQLAlchemy, Bulma, DataTables, TypeAhead",
@@ -33,33 +40,13 @@
 			"linkType": "Live",
 			"github": ""
 		},
-
 		{
-			"name": "University API (React)",
-			"technologies": "Flask, PostgreSQL/SQLAlchemy, Bulma, DataTables, TypeAhead",
-			"description": "Ideas: ContosoUniversity(React), Express/Dotnet contact manager(Angular), Or Library, or Plural(dotnet)",
-			"link": "",
-			"linkType": "Live",
-			"github": ""
-		},
-
-		{
-			"name": "Contact API (Angular)",
-			"technologies": "Flask, PostgreSQL/SQLAlchemy, Bulma, DataTables, TypeAhead",
-			"description": "Ideas: ContosoUniversity(React), Express/Dotnet contact manager(Angular), Or Library, or Plural(dotnet)",
-			"link": "",
-			"linkType": "Live",
-			"github": ""
-		},
-		{
-			"name": "Scheduling API (Angular)",
-			"technologies": "Flask, PostgreSQL/SQLAlchemy, Bulma, DataTables, TypeAhead",
-			"description": "Ideas: ContosoUniversity(React), Express/Dotnet contact manager(Angular), Or Library, or Plural(dotnet)",
+			"name": "FlaskUniversity API(IN PROGRESS)",
+			"technologies": "Flask, PostgreSQL/SQLAlchemy",
+			"description": "Backend for the wonderingfrul Contoso University app.",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		}
-
-
 	]
 }

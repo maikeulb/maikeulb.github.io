@@ -1,12 +1,10 @@
-//// Router ////
 const pages = [
 	'main',
-	'todo',
 	'mono',
 	'flask',
 	'nodejs',
 	'dotnet',
-	'firebase'
+	'spa'
 ];
 
 const openPage = (target) => {
@@ -18,17 +16,15 @@ const openPage = (target) => {
 		}
 	})
 
-	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
 }
 
 window.addEventListener("hashchange", () => {
 	openPage(location.hash.replace("#", ""));
 });
 
-if(location.hash === "") location.hash = "#main"; // Edge case
-openPage(location.hash.replace("#", "")); // First load
-
-//// Projects updater ////
+if(location.hash === "") location.hash = "#main";
+openPage(location.hash.replace("#", ""));
 
 fetch("dotnet.json").then((response) => {
 	response.json().then(data => {
@@ -138,7 +134,7 @@ fetch("nodejs.json").then((response) => {
 	})
 })
 
-fetch("firebase.json").then((response) => {
+fetch("spa.json").then((response) => {
 	response.json().then(data => {
 		data.projects.map(project => {
 
@@ -160,35 +156,7 @@ fetch("firebase.json").then((response) => {
 			    ${github}
 			</div>`;
 
-			document.querySelector(".firebase-list").innerHTML += card;
+			document.querySelector(".spa-list").innerHTML += card;
 		})
 	})
 })
-
-fetch("todo.json").then((response) => {
-	response.json().then(data => {
-		data.projects.map(project => {
-
-			let github = "";
-
-			if(project.github) github = `
-			<a href="${project.github}" target="_blank">
-		        <button class="btn">Github link</button>
-		    </a>`;
-
-			let card = `
-			<div class="card">
-			    <div class="card-title">${project.name}</div>
-			    <p><strong>${project.technologies}</strong></p>
-			    <p>${project.description}</p>
-			    <a href="${project.link}" target="_blank">
-			        <button class="btn">${project.linkType}</button>
-			    </a>
-			    ${github}
-			</div>`;
-
-			document.querySelector(".todo-list").innerHTML += card;
-		})
-	})
-})
-

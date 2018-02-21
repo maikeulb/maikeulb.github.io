@@ -2,160 +2,129 @@
 <html>
 <head>
 	<title>Michael Barnes | Portfolio</title>
-
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#000" />
-
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/icon.png">
-    <link rel="icon" type="image/png" href="/assets/icons/icon.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/assets/icons/icon.png" sizes="16x16">
-    <link rel="manifest" href="./manifest.json">
-
-    <link rel="stylesheet" href="/css/main.css"
+  <meta name="theme-color" content="#000" />
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
+  <header class="site-header">
+    <h1 class="site-title"><a href="/" class="no-border fancy-font">
+      Michael Barnes</a> {
+    </h1>
+      <p class="meta fancy-font">/* 
+        <a href = "/">main</a> | 
+        <a href = "/skills">skills</a> | 
+        <a href = "/art"> art</a> */
+      </p>
+  </header>
 
-    <div class="page" id="main">
-        <h1><span class="name">Michael Barnes</span></h2>
-        <h5><i>WEB DEVELOPER | .NET | Python | Javascript</i></h5>
-        <h2>ABOUT ME</h2>
-        <p> Hi! My name is Michael. I'm a former Sr. Structural Engineer(licensed PE) pursing web development. 
-          <p>Notable projects as a Structural Engineer: 
-            <ul>
-              <li>Wind analysis of an outdoor sculpture for the
-                Christopher Wool exhibit at the Guggenheim Museum.</li>
-              <li>Seismic risk analysis of the NIH hospital(located in DC).</li>
-              <li>Design and analysis of the Woolworth Building luxury condo <a href =
-                  https://nypost.com/2017/07/11/woolworth-renovations-are-a-perfect-blend-of-the-past-and-the-future">rennovation</a>.</li>
-            </ul>
-          </p>
-        </p>
+  <div class="page" id="main">
+    <h2>ABOUT ME</h2>
+    <p> Hi! My name is Michael. I'm a former Sr. Structural Engineer(licensed
+      PE) pursing web development. 
+      <p>Notable projects as a Structural Engineer: 
+        <ul>
+          <li>Nonlinear wind analysis of an outdoor sculpture for the
+            Christopher Wool exhibit at the Guggenheim Museum.</li>
+          <li>Seismic risk analysis of the National Institutes of Health (NIH)
+            Clinical Research Center.</li>
+          <li>Design and analysis of the Woolworth Building for the
+            multi-million dollar luxury condo <a href =
+              https://nypost.com/2017/07/11/woolworth-renovations-are-a-perfect-blend-of-the-past-and-the-future">rennovation</a>.</li>
+          <li>Numerous rennovation projects at Peter Cooper Village Stuyvesant
+            Town.</li>
+        </ul>
+      </p>
 
-        <p>My interest lies primarily in <u>backend development</u>. Specific topics
-          that interest me: DDD, CQRS, and microservice architectures.</p>
+    <h3>Interest</h3>
 
-        <p>Outside of programming, my hobbies are drawing and photography:
+    <p>My interest is in <u>backend development</u>, focusing on .NET (C#/F#)
+      and Python but regularly exploring new technologies, languages, and
+      paradigms. Specific topics that interest me: enterprise software
+      development patterns, domain-driven design, CQRS, and microservices.</p>
 
-          <a href="http://cargocollective.com/msbarnes/120bw"> Portraits</a> |
-          <a href="http://cargocollective.com/msbarnes/Graphite"> Drawings</a>
+    <h3>Contact</h3> <p>
+       michael.sergio.barnes@gmail.com | <a href ="#">github</a>
 
-        </p>
-        <h2>SKILLS</h2>
+    <h3>Projects </h3> 
+    <p>Please click below to view the projects I've worked on. </p>
+    <a href="#dotnet"><button class="nav-btn">.NET(C#/Core)</button></a>
+    <a href="#mono"><button class="nav-btn">.NET(F#/Mono)</button></a>
+    <a href="#flask"><button class="nav-btn">Flask</button></a>
+    <a href="#nodejs"><button class="nav-btn">NodeJs</button></a>
+    <a href="#spa"><button class="nav-btn">SPAs</button></a>
+    <a href="#todo"><button class="nav-btn" hidden>TODO</button></a>
+  </div>
 
-        <h3>Languages</h3> 
-        <p>
-          <ul style="list-style:none; padding-left:0;">
-            <li><u>Proficient</u>: C#, Python, Javascript/Typescript, and F#.</li> 
-            <li><u>Low Familiarity</u>: Clojure, Perl, and C.</li>
-          </ul>
-        </p>
+  <div class="page" id="dotnet">
+    <header class="site-header">
+      <a href="#dotnet"><button class="btn">.NET(C#/Core)</button></a>
+      <a href="#mono"><button class="btn">.NET(F#/Mono)</button></a>
+      <a href="#flask"><button class="btn">Flask</button></a>
+      <a href="#nodejs"><button class="btn">NodeJs</button></a>
+      <a href="#spa"><button class="btn">SPAs</button></a>
+      <a href="#todo"><button class="btn" hidden>TODO</button></a>
+    </header>
+    <div class="dotnet-list"></div>
+  </div>
 
-        <h3>Backend</h3> 
-        <p>
-          <ul style="list-style:none; padding-left:0;">
-            <li><u>Proficient:</u> ASP.NET Core(C#) and Flask(Python).</li>
-            <li><u>High Familiarity:</u> Mono/Suave(F#) and Nest/Express(Node).</li>
-            <li><u>Low Familiarity:</u> Luminus(Clojure).</li>
-          </ul>
-        </p>
+  <div class="page" id="mono">
+    <header class="site-header">
+     <a href="#dotnet"><button class="btn">.NET(C#/Core)</button></a>
+     <a href="#mono"><button class="btn">.NET(F#/Mono)</button></a>
+     <a href="#flask"><button class="btn">Flask</button></a>
+     <a href="#nodejs"><button class="btn">NodeJs</button></a>
+     <a href="#spa"><button class="btn">SPAs</button></a>
+     <a href="#todo"><button class="btn" hidden>TODO</button></a>
+    </header>
+    <div class="mono-list"></div>
+  </div>
 
-        <h3>FrontEnd</h3> 
-        <p>
-          <ul style="list-style:none; padding-left:0;">
-            <li><u>Proficient:</u> HTML/CSS, JQuery and VanillaJS</li>
-            <li><u>High familiarity:</u> React/Redux and Angular/Ngrx/RxJS</li>
-          </ul>
-          <p> I've used several UI Toolkits/Frameworks including Bootstrap 4,
-            Semantic UI, UI Kit, Bulma, Material 2 (Angular), and Ant Design
-            (React). I manage my builds with Webpack. 
-          </p>
-        </p>
+  <div class="page" id="flask">
+    <header class="site-header">
+     <a href="#dotnet"><button class="btn">.NET(C#/Core)</button></a>
+     <a href="#mono"><button class="btn">.NET(F#/Mono)</button></a>
+     <a href="#flask"><button class="btn">Flask</button></a>
+     <a href="#nodejs"><button class="btn">NodeJs</button></a>
+     <a href="#spa"><button class="btn">SPAs</button></a>
+     <a href="#todo"><button class="btn" hidden>TODO</button></a>
+    </header>
+    <div class="flask-list"></div>
+  </div>
 
-        <h3>Databases and Data Stores</h3> 
+  <div class="page" id="nodejs">
+    <header class="site-header">
+     <a href="#dotnet"><button class="btn">.NET(C#/Core)</button></a>
+     <a href="#mono"><button class="btn">.NET(F#/Mono)</button></a>
+     <a href="#flask"><button class="btn">Flask</button></a>
+     <a href="#nodejs"><button class="btn">NodeJs</button></a>
+     <a href="#spa"><button class="btn">SPAs</button></a>
+     <a href="#todo"><button class="btn" hidden>TODO</button></a>
+    </header>
 
-        <p> I'm comfortable working with relational databases and SQL.
-          PostgreSQL is my go-to relational and document database. I've also
-          used MySQL, MongoDB, Firebase, ElasticSearch (for search) and Redis
-          (for caching). </p>
-
-        <p>Data mappers I use:
-            <ul>
-              <li>EF Core(.NET)</li>
-              <li>Dapper(.NET)</li> 
-              <li>Marten(.NET)</li>
-              <li>SQLProvider(F#/Mono)</li>
-              <li>SQLAlchemy(Python)</li>
-              <li>TypeORM(NodeJs)</li> 
-              <li>Mongoose(NodeJs)</li>
-            </ul>
-         </p>
-
-         <h3>Development Environment</h3> 
-
-         <p> Linux(Ubuntu)+i3+Tmux+Fish+Git+NeoVim+Docker leveraging numerous
-           CLI tools (e.g. pgcli, fzf) and Linux utilities (e.g. sed, grep).
-           I'm very comfortable working with the terminal environment (e.g
-           basic text manipulation, process monitoring, ssh). </p>
-
-         <h3>Contact</h3> <p>
-           michael [dot] sergio [dot] barnes [at] gmail [dot] com</p>
-
-         <h3>Projects </h3> 
-
-         <p>Please click one of the buttons below for a description, preview,
-           and github link to the projects I've worked on. </p>
-
-            <a href="#dotnet"><button class="nav-btn">.NET(C#/Core)</button></a>
-            <a href="#mono"><button class="nav-btn">.NET(F#/Mono)</button></a>
-            <a href="#flask"><button class="nav-btn">Flask</button></a>
-            <a href="#nodejs"><button class="nav-btn">NodeJs</button></a>
-            <a href="#firebase"><button class="nav-btn">SPAs</button></a>
-            <a href="#todo"><button class="nav-btn" hidden>TODO</button></a>
-
-    </div>
-
-    <div class="page" id="dotnet">
-      <h2>Here are some of my .NET(C#/Core) projects</h2>
-        <div class="dotnet-list"></div>
-    </div>
-
-    <div class="page" id="mono">
-        <h2>Here are some of my .NET(F#/Mono) projects</h2>
-        <div class="mono-list"></div>
-    </div>
-
-    <div class="page" id="flask">
-        <h2>Here are some of my Flask projects</h2>
-        <div class="flask-list"></div>
-    </div>
-
-    <div class="page" id="nodejs">
-        <h2>Here are some of my NodeJs projects</h2>
-        <div class="nodejs-list"></div>
-    </div>
-
-    <div class="page" id="firebase">
-        <h2>Here are some of my SPA projects</h2>
-        <div class="firebase-list"></div>
-    </div>
-
-    <div class="page" id="todo">
-        <h2>Here are some of my SPA projects</h2>
-        <div class="todo-list"></div>
-    </div>
-
+    <div class="nodejs-list"></div>
+  </div>
+  <div class="page" id="spa">
+    <header class="site-header">
+     <a href="#dotnet"><button class="btn">.NET(C#/Core)</button></a>
+     <a href="#mono"><button class="btn">.NET(F#/Mono)</button></a>
+     <a href="#flask"><button class="btn">Flask</button></a>
+     <a href="#nodejs"><button class="btn">NodeJs</button></a>
+     <a href="#spa"><button class="btn">SPAs</button></a>
+     <a href="#todo"><button class="btn" hidden>TODO</button></a>
+    </header>
+    <div class="spa-list"></div>
+  </div>
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.0.2/dist/js/lightgallery.min.js"></script>
 <script src="js/main.js"></script>
-
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-41041173-4');
 </script>
-
-
 </html>
