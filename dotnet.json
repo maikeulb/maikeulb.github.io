@@ -27,12 +27,11 @@
 		{
 			"name": "Magnum Photos RESTful API",
 			"technologies": "ASP.NET Core 2.0, PostgreSQL/EF Core2.0",
-			"description": "Toy Restful API for <a href = https://www.magnumphotos.com/>Magnum Photos</a></li> with level 3 maturity. The resources are the agency's photographers and their photography books. The API is documented with Swagger through Swashbuckle. <p>Features: <ul><li>Get single, child, and collection resources.</li><li>Create/Delete single, child, and collection resources. <li>Put/Patch child resources for full updates, partial updates, and upserts.</li><li>Validation and error/fault handling.</li><li>Paging, filtering, ordering, and sorting.</li><li>Http caching and rate limiting.</li><li>Hypermedia links.</li></ul></p><p>todo:logging to file; hypermedia; swashbuckle</p>",
+			"description": "Toy Restful API for <a href = https://www.magnumphotos.com/>Magnum Photos</a></li> with level 3 maturity(Hypermedia). The resources are the agency's photographers and their photography books. The API is documented with Swagger through Swashbuckle. <p>Features: <ul><li>Get single, child, and collection resources.</li><li>Post/Delete single,child, and collection(no delete) resources. <li>Put/Patch child resources for full updates, partial updates, and upserts.</li><li>Validation and Logging.</li><li>Paging, filtering, ordering, and sorting.</li><li>Http caching and rate limiting.</li><Logging, provided by Nlog></ul></p><p>todo:logging to file; hypermedia; swashbuckle</p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
-
 		{
 			"name": "NYC Museums RESTful API(IN PROGRESS)",
 			"technologies": "ASP.NET Core 2.0",
