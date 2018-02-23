@@ -1,7 +1,7 @@
 {
 	"projects": [
 		{
-			"name": "SimpleBlog",
+			"name": "1. SimpleBlog",
 			"technologies": "Flask, PostgreSQL/SQLAlchemy, ElasticSearch, Semantic UI",
 			"description": "Mini blogging platform. <p>Functionality: <ul><li>Browse, post, edit, and delete blog posts.</li><li>Search(full-text) blog posts.</li><li>User profiles.</li><li>Follow/unfollow bloggers.</li><li>Send private messages.</li><li>Message notifications.</li></ul></p<p>Features: <ul><li>Session-based authentication.</li><li>Localization (TODO).</li></ul></p><p>TODO: Localization, External Logging, Redis(cache, celary). Fully deploy project</p>",
 			"link": "",
@@ -9,7 +9,7 @@
 			"github": ""
 		},
 		{
-			"name": "Filmogram",
+			"name": "2. Filmogram",
 			"technologies": "Flask, PostgreSQL/SQLAlchemy, UI Kit",
 			"description": "Social network similar to instagram/flickr. <p>Functionality: <ul><li>Browse and post photos.</li><li>Comment on photos.</li><li>Like/unlike photos.</li><li>Follow/unfollow users.</li><li>User profiles.</li><li>User notifications (when someone likes your photo).</li></ul></p><p>Features: <ul><li>Session based authentication.</li></ul></p><p>TODO: Manage Inventory, Deploy onto AWS/Azure</p>",
 			"link": "",
@@ -17,7 +17,7 @@
 			"github": ""
 		},
 		{
-			"name": "LeicaRentals",
+			"name": "3. LeicaRentals",
 			"technologies": "Flask, PostgreSQL/SQLAlchemy, Bootstrap 4, DataTables, TypeAhead",
 			"description": "Lens rental app. <p>Functionality: <ul><li>Manage lens catalog.</li><li>Manage customer catalog.</li><li>Manage lens rentals.</li></ul></p> <p> Features: <ul><li>Session-based Authentication.</li><li>DataTables for inventory management.</li><li>Typeahead for lens rental form.</li></ul></p><p>TODO:Manage available Lenses.</p> ",
 			"link": "",
@@ -25,25 +25,33 @@
 			"github": ""
 		},
 		{
-			"name": "CitySkyscrapers API",
+			"name": "4. CitySkyscrapers API",
 			"technologies": "Flask, PostgreSQL/SQLAlchemy",
-			"description": "Toy Restful API for City Skyscrapers with level 3 maturity (hypermedia). The resources are cities and child resources are city landmarks. <p>Functionality: <ul><li>Get single, collection and child resources.</li><li>Post/Delete single and child resources. <li>Put/Patch single and child resources for full updates and partial updates.</li><li>Validation and error/fault handling.</li><li>Paging, filtering and sorting.</li><li>TODO: Http caching and rate limiting.<li>TODO: Token-Based Authentication and Authorization</li></li></ul></p><p>TODO:logging to file, Documentation, HttpCaching, rate limiting, authentication and authorization.</p>",
+			"description": "Restful API for City Skyscrapers with level 3 maturity (hypermedia). The resources are cities and child resources are city landmarks. <p>Functionality: <ul><li>Get single, collection and child resources.</li><li>Post/Delete single and child resources. <li>Put/Patch single and child resources for full updates and partial updates.</li><li>Validation and error/fault handling.</li><li>Paging, filtering and sorting.</li><li>TODO: Http caching and rate limiting.<li>TODO: Token-Based Authentication and Authorization</li></li></ul></p><p>TODO:logging to file, Documentation, HttpCaching, rate limiting, authentication and authorization.</p>",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
 		{
-			"name": "CandyShop (TODO)",
+			"name": "5. Pokemon API",
+			"technologies": "Flask, PostgreSQL/SQLAlchemy",
+			"description": "A simple API that consumes Pokemon data from pokepai.co (Pokemon API) and caches it using Redis.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+		{
+			"name": "6. FlaskUniversity(IN PROGRESS)",
 			"technologies": "Flask, PostgreSQL/SQLAlchemy, Bulma, DataTables, TypeAhead",
-			"description": "Ecommerce shop.TODO, Stripe API",
+			"description": "",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
 		},
 		{
-			"name": "FlaskUniversity API(IN PROGRESS)",
-			"technologies": "Flask, PostgreSQL/SQLAlchemy",
-			"description": "Backend for the wonderingfrul Contoso University app.",
+			"name": "7. StationaryShop(IN PROGRESS)",
+			"technologies": "Flask, PostgreSQL/SQLAlchemy, Bulma, DataTables, TypeAhead",
+			"description": "",
 			"link": "",
 			"linkType": "Live",
 			"github": ""

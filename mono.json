@@ -1,20 +1,30 @@
 {
-	"projects": [
-		{
-			"name": "Growler",
-			"technologies": "PostgreSQL/Suave, SQLProvider, UI Kit",
-			"description": "Social network similar to twitter.<p>Functionality:<ul><li> browse/send growls</li><li>follow users</li><li>user feed powered by Stream 3rd party Api</li></ul></p>",
-			"link": "",
-			"linkType": "Live",
-			"github": ""
-		},
-		{
-			"name": "PointAndShoot (In Progress)",
-			"technologies": "PostgreSQL/Suave, SQLProviders",
-			"description": "In-progress ecommerce app.",
-			"link": "",
-			"linkType": "Live",
-			"github": ""
-		}
-	]
+  "projects": [
+    {
+      "name": "Growler",
+      "technologies": "PostgreSQL/Suave, SQLProvider, UI Kit",
+      "description":
+        "Social network similar to twitter.<p>Functionality:<ul><li> browse/send growls</li><li>follow users</li><li>user feed powered by Stream 3rd party Api</li></ul></p>",
+      "link": "",
+      "linkType": "Live",
+      "github": ""
+    },
+    {
+      "name": "Teen Titans API",
+      "technologies": "PostgreSQL/Suave, SQLProviders",
+      "description":
+        "A simple Restful API for the Teen Titans. The resources are the Teen Titan members themselves. Get, Put, Post, Delete, and Head methods are supported for single resources.",
+      "link": "",
+      "linkType": "Live",
+      "github": ""
+    },
+    {
+      "name": "PointAndShoot (In Progress)",
+      "technologies": "PostgreSQL/Suave, SQLProviders",
+      "description": "In-progress ecommerce app.",
+      "link": "",
+      "linkType": "Live",
+      "github": ""
+    }
+  ]
 }
