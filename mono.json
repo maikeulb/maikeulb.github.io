@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Growler",
-      "technologies": "PostgreSQL/Suave, SQLProvider, UI Kit",
+      "technologies": "Suave, PostgreSQL/SQLProvider, UI Kit",
       "description":
         "Social network similar to twitter.<p>Functionality:<ul><li> browse/send growls</li><li>follow users</li><li>user feed powered by Stream 3rd party Api</li></ul></p>",
       "link": "",
@@ -10,10 +10,10 @@
       "github": ""
     },
     {
-      "name": "Teen Titans API",
-      "technologies": "PostgreSQL/Suave, SQLProviders",
+      "name": "RickAndMorty API",
+      "technologies": "Suave, JSONProvider",
       "description":
-        "A simple Restful API for the Teen Titans. The resources are the Teen Titan members themselves. Get, Put, Post, Delete, and Head methods are supported for single resources.",
+        "A simple Restful API for the Rick and Morty. The resources are Rick and Morty characters and locations (TODO), pre-populated by the Rick and Morty API via the JSON Type Provider.",
       "link": "",
       "linkType": "Live",
       "github": ""
