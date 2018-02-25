@@ -3,7 +3,6 @@ const pages = [
   'core',
   'suave',
   'flask',
-  'nodejs',
   'spa'
 ];
 
@@ -103,33 +102,6 @@ fetch("flask.json").then((response) => {
 			</div>`;
 
       document.querySelector(".flask-list").innerHTML += card;
-    })
-  })
-})
-
-fetch("nodejs.json").then((response) => {
-  response.json().then(data => {
-    data.projects.map(project => {
-
-      let github = "";
-
-      if (project.github) github = `
-			<a href="${project.github}" target="_blank">
-		        <button class="btn">Github link</button>
-		    </a>`;
-
-      let card = `
-			<div class="card">
-			    <div class="card-title">${project.name}</div>
-			    <p><strong>${project.technologies}</strong></p>
-			    <p>${project.description}</p>
-			    <a href="${project.link}" target="_blank">
-			        <button class="btn">${project.linkType}</button>
-			    </a>
-			    ${github}
-			</div>`;
-
-      document.querySelector(".nodejs-list").innerHTML += card;
     })
   })
 })

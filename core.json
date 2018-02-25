@@ -35,7 +35,7 @@
 		{
 			"name": "5. Starships API - Redis ",
 			"technologies": "ASP.NET Core 2.0, Redis",
-			"description": " A simple API that consumes Starship data from swapi.co (Star Wars API) and caches it using Redis.",
+			"description": " A simple API that consumes Starship data from swapi.co (Star Wars API) and caches it using Redis. Swagger metadeata is automatically genereated through Swashbuckle.",
 			"link": "",
 			"linkType": "Live",
 			"github": ""
