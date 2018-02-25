@@ -13,7 +13,7 @@
       "name": "RickAndMorty API",
       "technologies": "Suave, JSONProvider",
       "description":
-        "A simple Restful API for the Rick and Morty. The resources are Rick and Morty characters and locations (TODO), pre-populated by the Rick and Morty API via the JSON Type Provider.",
+        "A simple Restful API for the Rick and Morty. The resources are Rick and Morty characters and locations. The initial data comes from the Rick and Morty API via the JSON Type Provider.",
       "link": "",
       "linkType": "Live",
       "github": ""

@@ -1,7 +1,7 @@
 const pages = [
   'main',
-  'dotnet',
-  'mono',
+  'core',
+  'suave',
   'flask',
   'nodejs',
   'spa'
@@ -26,7 +26,7 @@ window.addEventListener("hashchange", () => {
 if (location.hash === "") location.hash = "#main";
 openPage(location.hash.replace("#", ""));
 
-fetch("dotnet.json").then((response) => {
+fetch("core.json").then((response) => {
   response.json().then(data => {
     data.projects.map(project => {
 
@@ -48,12 +48,12 @@ fetch("dotnet.json").then((response) => {
 			    ${github}
 			</div>`;
 
-      document.querySelector(".dotnet-list").innerHTML += card;
+      document.querySelector(".core-list").innerHTML += card;
     })
   })
 })
 
-fetch("mono.json").then((response) => {
+fetch("suave.json").then((response) => {
   response.json().then(data => {
     data.projects.map(project => {
 
@@ -75,7 +75,7 @@ fetch("mono.json").then((response) => {
 			    ${github}
 			</div>`;
 
-      document.querySelector(".mono-list").innerHTML += card;
+      document.querySelector(".suave-list").innerHTML += card;
     })
   })
 })
