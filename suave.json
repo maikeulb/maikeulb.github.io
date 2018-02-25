@@ -29,19 +29,24 @@
       "linkType": "Live",
       "github": ""
     },
-
     {
-      "name": "4. SOMETHING - API TODO",
-      "technologies": "FSharp.Data, FSharp.Control.Reactive (Reactive Extensions)",
-      "description":
-        "An API gateway for Github. The service proxies user and user repo Rest end points and outputs the results into a merged Json Response providing user data with their most popular repos.",
+      "name": "4. SuaveCafe (In Progress)",
+      "technologies": "PostgreSQL/SQLProviders",
+      "description": "In-progress ecommerce app.",
       "link": "",
       "linkType": "Live",
       "github": ""
     },
-
     {
-      "name": "5. PointAndShoot (In Progress)",
+      "name": "5. API (In Progress)",
+      "technologies": "PostgreSQL/SQLProviders",
+      "description": "Coffeep.",
+      "link": "",
+      "linkType": "Live",
+      "github": ""
+    },
+    {
+      "name": "6. PointAndShoot (In Progress)",
       "technologies": "PostgreSQL/SQLProviders",
       "description": "In-progress ecommerce app.",
       "link": "",
