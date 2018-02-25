@@ -1,26 +1,48 @@
 {
   "projects": [
     {
-      "name": "Growler",
-      "technologies": "Suave, PostgreSQL/SQLProvider, UI Kit",
+      "name": "1. Growler APP",
+      "technologies": "PostgreSQL/SQL Type Provider, UI Kit",
       "description":
         "Social network similar to twitter.<p>Functionality:<ul><li> browse/send growls</li><li>follow users</li><li>user feed powered by Stream 3rd party Api</li></ul></p>",
       "link": "",
       "linkType": "Live",
       "github": ""
     },
+
     {
-      "name": "RickAndMorty API",
-      "technologies": "Suave, JSONProvider",
+      "name": "2. RickAndMorty API - API Remote",
+      "technologies": "FSharp.Data",
       "description":
-        "A simple Restful API for the Rick and Morty. The resources are Rick and Morty characters and locations. The initial data comes from the Rick and Morty API via the JSON Type Provider.",
+        "A simple Restful API for Rick and Morty. The resources are Rick and Morty characters and locations. The initial data comes from the Rick and Morty API via the JSON Type Provider.",
       "link": "",
       "linkType": "Live",
       "github": ""
     },
+
     {
-      "name": "PointAndShoot (In Progress)",
-      "technologies": "PostgreSQL/Suave, SQLProviders",
+      "name": "3. GitHub API Gateway - API Remote",
+      "technologies": "FSharp.Data, FSharp.Control.Reactive (Reactive Extensions)",
+      "description":
+        "An API gateway for Github. The service proxies user and user repo Rest end points and outputs the results into a merged Json Response providing user data with their most popular repos.",
+      "link": "",
+      "linkType": "Live",
+      "github": ""
+    },
+
+    {
+      "name": "4. SOMETHING - API TODO",
+      "technologies": "FSharp.Data, FSharp.Control.Reactive (Reactive Extensions)",
+      "description":
+        "An API gateway for Github. The service proxies user and user repo Rest end points and outputs the results into a merged Json Response providing user data with their most popular repos.",
+      "link": "",
+      "linkType": "Live",
+      "github": ""
+    },
+
+    {
+      "name": "5. PointAndShoot (In Progress)",
+      "technologies": "PostgreSQL/SQLProviders",
       "description": "In-progress ecommerce app.",
       "link": "",
       "linkType": "Live",

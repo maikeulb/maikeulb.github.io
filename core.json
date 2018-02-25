@@ -1,7 +1,7 @@
 {
 	"projects": [
 		{
-			"name": "1. Photo Exhibiter",
+			"name": "1. Photo Exhibiter - APP",
 			"technologies": "ASP.NET Core 2.0, MySQL/EF Core 2.0, Identity Framework, Bootstrap 4",
 			"description": "Social network for photographers.<p>Functionality: <ul><li>Browse upcoming exhibits(past exhibits expire).</li><li>Post, Edit, and Cancel(soft delete) exhibits.</li><li>Search for upcoming exhibits.</li><li>Attend/unattend exhibits.</li><li>Follow/unfollow photographers.</li><li>User notifications (triggered when someone cancels or changes an exhibit).</li></ul></p><p>Features:<ul><li>Session-based authentication provided by Identity Framework.</li><li>Rich Domain Model with encapsulated collections and operations.</li><li>Thin Controllers with CQRS Architecture.</li></ul></p>",
 			"link": "",
@@ -9,7 +9,7 @@
 			"github": ""
 		},
 		{
-			"name": "2. Rollei Shop",
+			"name": "2. Rollei Shop - APP",
 			"technologies": "ASP.NET Core 2.0, PostgreSQL/EF Core 2.0, Identity Framework, Semantic UI",
 			"description": "Ecommerce app. <p>Functionality: <ul><li>Browse product catalog.</li><li>Manage product catalog (admin feature).</li><li>Manage shopping cart.</li><li>Checkout order and browse order history.</li></ul></p><p>Features:<ul><li>Session-based Authentication and Authorization provided by Identiy Framework.</li><li>Server-side pagination.</li><li>Rich domain model with encapsulated collections and operations.</li><li>Thin controllers with CQRS architecture.</li></ul></p><p><TODO: Admin, CQRS, Redis</p><p>Add Redis and Fully Deploy project</p>",
 			"link": "",
@@ -17,7 +17,7 @@
 			"github": ""
 		},
 		{
-			"name": "3. Dapper University",
+			"name": "3. Dapper University - APP",
 			"technologies": "ASP.NET Core 2.0, PostgreSQL/Dapper, Flyway, Bulma",
 			"description": "The wonderful Contoso University <a href='https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro'>sample project</a> written in Dapper (and Bulma for the UI). <p>Functionality: <ul><li>Manage Students.</li><li> Manage Instructors.</li><li>Manage Courses.</li><li>Manage Departments.</li></ul></p><p>All features are complete except for instructor course assignments. I also have plans to extend the app with Identity Framework(using Dapper in lieu of Entity) for authentication and authorization.</p><p>TODO:Autho, Admin </p>",
 			"link": "",
@@ -25,7 +25,7 @@
 			"github": ""
 		},
 		{
-			"name": "4. Magnum Photos API",
+			"name": "4. Magnum Photos API - Database",
 			"technologies": "ASP.NET Core 2.0, PostgreSQL/EF Core2.0",
 			"description": " Restful API for <a href = https://www.magnumphotos.com/>Magnum Photos</a></li> with level 3 maturity(Hypermedia). The resources are the agency's photographers and their photography books. The API is documented with Swagger through Swashbuckle. <p>Features: <ul><li>Get single, child, and collection resources.</li><li>Post/Delete single,child, and collection(no delete) resources. <li>Put/Patch child resources for full updates, partial updates, and upserts.</li><li>Validation and Logging.</li><li>Paging, filtering, ordering, and sorting.</li><li>Http caching and rate limiting.</li><Logging, provided by Nlog></ul></p><p>todo:logging to file; hypermedia; swashbuckle</p>",
 			"link": "",
@@ -33,7 +33,7 @@
 			"github": ""
 		},
 		{
-			"name": "5. Starships API",
+			"name": "5. Starships API - Redis ",
 			"technologies": "ASP.NET Core 2.0, Redis",
 			"description": " A simple API that consumes Starship data from swapi.co (Star Wars API) and caches it using Redis.",
 			"link": "",
@@ -41,7 +41,7 @@
 			"github": ""
 		},
 		{
-			"name": "6. Pokedex",
+			"name": "6. Pokedex - ES",
 			"technologies": "ASP.NET Core 2.0, ElasticSearch/Nest, Sakura CSS",
 			"description": " A simple app that indexes pokemon data (from json) and provides a minimal UI for search.",
 			"link": "",
@@ -50,6 +50,14 @@
 		},
 		{
 			"name": "7. MCC(In Progress) API",
+			"technologies": "DAPPER API",
+			"description": "A simple API that consumes Starship data from swapi.co (Star Wars API) and caches it using Redis.",
+			"link": "",
+			"linkType": "Live",
+			"github": ""
+		},
+		{
+			"name": "8. DC(In Progress) API",
 			"technologies": "DAPPER API",
 			"description": "A simple API that consumes Starship data from swapi.co (Star Wars API) and caches it using Redis.",
 			"link": "",
