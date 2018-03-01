@@ -10,7 +10,15 @@
   <link rel="icon" type="image/png" href="/assets/icons/icon.png" sizes="16x16">
   <link rel="manifest" href="./manifest.json">
   <link rel="stylesheet" href="/css/main.css">
+<link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
   <style>
+html{
+  max-width: 45em;
+  margin: auto;
+  padding: 13px; 
+}
 body {
   font: font-weight(regular) 14px/1.5 "Roboto", sans-serif;
 }
@@ -69,8 +77,8 @@ input {
 }
 
 .table__cell--checkbox {
-  max-width: 25px;
-  padding: 16px 0 14px 12px;
+  max-width: 50px;
+  padding;
 
   .table__head & {
     padding: 10px 0 8px 12px;
@@ -103,7 +111,8 @@ input {
     </h1>
     <p class="meta fancy-font">/*
       <a href="/">main</a> |
-      <a href="/skills/index.html">skills</a> |
+      <a href="/skills">skills</a> |
+      <a href="/projects">projects</a> | 
       <a href="/art/"> art</a> */
     </p>
   </header>
@@ -119,35 +128,59 @@ input {
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
         </td>
         </td>
-        <td class="UserTable__name table__cell table__cell--no-wrap">Name</td>
-        <td class="table__cell table__cell--remainder">Description</td>
+        <td class="UserTable__name table__cell table__cell--no-wrap"></td>
+        <td class="table__cell table__cell--remainder"></td>
       </tr>
     </thead>
     <tbody class="table__body">
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
-        </td>
-        <td class="UserTable__name table__cell table__cell--no-wrap">
-          PhotoExhibiter
-          <div> <img height=50px;
-          src="https://jaki-jezyk-programowania.pl/img/csharp.png"/>
+          <div>
+           <i class="devicon-csharp-plain" style="font-size:40px"></i>
           </div>
         </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+
+          <u>PhotoExhibiter</u>
+          <li>MySQL</li>
+          <li>DDD/CQRS</li>
+
+        </td>
         <td class="table__cell table__cell--remainder"> A social network for
-          photographers. Users can sign up, post exhibits, and attend/unattend
-          upcoming exhibits (past exhibits expire). Other features include following/unfollowing,
-          and user notifications (when an exhibit changes or is cancelled) are
-          also supported. The application is written in a DDD/CQRS-esque
-          architecture. </td>
+          photographers. Users can sign up,  post exhibits, and attend/unattend
+          upcoming exhibits (past exhibits expire). Other features include following/unfollowing
+          and user notifications (when an exhibit changes or is cancelled).
+      </tr>
+
+      <tr class="table__row">
+        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+          <div>
+           <i class="devicon-csharp-plain" style="font-size:40px"></i>
+          </div>
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+
+          <u>RolleiShop</u>
+           <li>PostgreSQL</li>
+           <li>Redis</li>
+           <li>DDD/CQRS</li>
+        </td>
+        <td class="table__cell table__cell--remainder">
+        An Ecommerce shop for film cameras. Users can sign up, browse the
+        catalog, add items to the catalog, purchase items, and browse the order
+        history. There is also an admin feature allowing store managers to manage
+        the catalog.
+        </td>
       </tr>
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+          <div>
+           <i class="devicon-csharp-plain" style="font-size:40px"></i>
+          </div>
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
-          DapperUniversity
-          <div> <img height=50px;
-          src="https://jaki-jezyk-programowania.pl/img/csharp.png"/>
-          </div>
+          <u>DapperUniversity</u>
+           <li>PostgreSQL</li>
         </td>
         <td class="table__cell table__cell--remainder">
            The wonderful Contoso University sample application written in
@@ -156,27 +189,50 @@ input {
            for Students, Courses, Departments, and Instructors.
         </td>
       </tr>
+
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+          <div>
+           <i class="devicon-python-plain" style="font-size:40px"></i>
+          </div>
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
-        RolleiShop
-          <div> <img height=50px;
-          src="https://jaki-jezyk-programowania.pl/img/csharp.png"/>
-          </div>
+          <u> Filmogram</u>
+           <li>PostgreSQL</li>
         </td>
         <td class="table__cell table__cell--remainder">
-        An Ecommerce Store.
-        </td>
+          An instagram/flickr clone. Users can sign up, post photos,
+          like/unlike photos, comment on photos, and follow other users. User
+          notifications are enabled (when someone likes one of your photos).
       </tr>
+
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+          <div>
+           <i class="devicon-python-plain" style="font-size:40px"></i>
+          </div>
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
-          Filmogram
-          <div> <img height=50px;
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png"/>
+          <u> LeicaRentals</u>
+           <li>PostgreSQL</li>
+           <li>DataTables</li>
+           <li>TypeAhead</li>
+        </td>
+        <td class="table__cell table__cell--remainder">
+          The backend to a lens rental shop. Users can sign up and manage the lens
+          customer datatables along with entering lens rentals into the system,
+          keeping track of which lenses are available.
+      </tr>
+
+      <tr class="table__row">
+        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+          <div>
+           <i class="devicon-python-plain" style="font-size:40px"></i>
           </div>
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+          <u>StationaryShop</u>
+           <li>PostgreSQL</li>
         </td>
         <td class="table__cell table__cell--remainder">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
@@ -184,12 +240,31 @@ input {
 
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+          <div>
+           <i class="devicon-python-plain" style="font-size:40px"></i>
+          </div>
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
-          StationaryShop
-          <div> <img height=50px;
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png"/>
-          </div>
+          <u> SimpleBlog</u>
+           <li>PostgreSQL</li>
+           <li>ElasticSearch</li>
+           <li>Redis</li>
+        </td>
+        <td class="table__cell table__cell--remainder">
+          A microblog, made with reference to the flask mega tutorial. I
+          started with the tutorial but diverged. I added a like system, a tag
+          system, and a different UI. 
+      </tr>
+
+      <tr class="table__row">
+        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+           <div>
+           <span class="devicons devicons-fsharp" style="font-size:45px">
+           </div>
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+          <u>Growler</u>
+           <li>PostgreSQL</li>
         </td>
         <td class="table__cell table__cell--remainder">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
@@ -197,12 +272,13 @@ input {
 
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+          <div>
+           <span class="devicons devicons-fsharp" style="font-size:45px">
+          </div>
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
-          PointAndShoot
-          <div> <img height=50px;
-          src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Fsharp%2C_Logomark%2C_October_2014.svg/1024px-Fsharp%2C_Logomark%2C_October_2014.svg.png"/>
-          </div>
+          <u>PointAndShoot</u>
+           <li>PostgreSQL</li>
         </td>
         <td class="table__cell table__cell--remainder">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
@@ -210,40 +286,29 @@ input {
 
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
-        </td>
-        <td class="UserTable__name table__cell table__cell--no-wrap">
-          Growler
-          <div> <img height=50px;
-          src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Fsharp%2C_Logomark%2C_October_2014.svg/1024px-Fsharp%2C_Logomark%2C_October_2014.svg.png"/>
-          </div>
-        </td>
-        <td class="table__cell table__cell--remainder">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
-      </tr>
-
-      <tr class="table__row">
-        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
-        </td>
-        <td class="UserTable__name table__cell table__cell--no-wrap">
-          RFReview
+         <div>
+          <i class="devicon-typescript-plain" style="font-size:40px"></i>
          </div>
-          <div> <img height=50px;
-          src="http://www.typescriptlang.org/assets/images/icons/apple-touch-icon-180x180.png"/>
-          </div>
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+          <u>RFReview</u>
+           <li>MongoDB</li>
         </td>
         <td class="table__cell table__cell--remainder">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
+          A rangefinder review review website written with Typescript (using Nest
+          framework). Users can sign up (including social login), browse
+          reviews, post reviews, and comment on reviews.
       </tr>
 
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+         </div>
+           <i class="devicon-go-plain" style="font-size:40px"></i>
+         <div>
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
-          Coffeed
-          <div> <img height=50px;
-          src="https://cacophony.org.nz/sites/default/files/gopher.png"/>
-          </div>
-        </td>
+          <u>Coffeed</u>
+           <li>PostgreSQL</li>
         <td class="table__cell table__cell--remainder">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
       </tr>
@@ -268,9 +333,6 @@ input {
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
           MagnumPhotos
-          <div> <img height=50px;
-          src="https://jaki-jezyk-programowania.pl/img/csharp.png"/>
-          </div>
         </td>
         <td class="table__cell table__cell--remainder"> A social network for
           photographers. Users can sign up, post exhibits, and attend/unattend
@@ -284,8 +346,116 @@ input {
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
           Starships
-          <div> <img height=50px;
-          src="https://jaki-jezyk-programowania.pl/img/csharp.png"/>
+        </td>
+        <td class="table__cell table__cell--remainder">
+           The wonderful Contoso University sample application written in
+           Dapper, and other infrastrucure changes. The Contoso University
+           sample application is a backend to a University. A management system
+           for Students, Courses, Departments, and Instructors.
+        </td>
+      </tr>
+      <tr class="table__row">
+        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+         Pokedex
+        </td>
+        <td class="table__cell table__cell--remainder">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
+        </td>
+      </tr>
+      <tr class="table__row">
+        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+         CityLandmarks
+        </td>
+        <td class="table__cell table__cell--remainder">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
+        </td>
+      </tr>
+      <tr class="table__row">
+        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+         Pokemon
+         <i class="devicon-redis-plain" style="font-size:40px"></i>
+        </td>
+        <td class="table__cell table__cell--remainder">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
+        </td>
+      </tr>
+      <tr class="table__row">
+        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+         API Gateway
+        </td>
+        <td class="table__cell table__cell--remainder">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
+        </td>
+      </tr>
+      <tr class="table__row">
+        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+         RickAndMorty
+        </td>
+        <td class="table__cell table__cell--remainder">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
+        </td>
+      </tr>
+      <tr class="table__row">
+        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+         NoFace
+        </td>
+        <td class="table__cell table__cell--remainder">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2 style="margin:0;"> SPAs  </h2>
+  <table class="table table--shaded">
+    <thead class="table__head">
+      <tr class="table__row">
+        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+        </td>
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">Name</td>
+        <td class="table__cell table__cell--remainder">Description</td>
+      </tr>
+    </thead>
+    <tbody class="table__body">
+      <tr class="table__row">
+        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+          ZuikoShop
+           <div>
+           <i class="devicon-angularjs-plain" style="font-size:40px"></i>
+        <i class="devicons devicons-firebase" style="font-size:40px"></i>
+           </div>
+        </td>
+        <td class="table__cell table__cell--remainder"> A social network for
+          photographers. Users can sign up, post exhibits, and attend/unattend
+          upcoming exhibits (past exhibits expire). Other features include following/unfollowing,
+          and user notifications (when an exhibit changes or is cancelled) are
+          also supported. The application is written in a DDD/CQRS-esque
+          architecture. </td>
+      </tr>
+      <tr class="table__row">
+        <td class="table__cell table__cell--checkbox table__cell--no-wrap">
+        </td>
+        <td class="UserTable__name table__cell table__cell--no-wrap">
+          IlfordFilm
+          <div>
+           <i class="devicon-react-plain" style="font-size:40px"></i>
+        <i class="devicons devicons-firebase" style="font-size:40px"></i>
           </div>
         </td>
         <td class="table__cell table__cell--remainder">
@@ -295,94 +465,79 @@ input {
            for Students, Courses, Departments, and Instructors.
         </td>
       </tr>
-
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
-         Pokedex
-          <div> <img height=50px;
-          src="https://jaki-jezyk-programowania.pl/img/csharp.png"/>
-          </div>
+         CamerDb
+           <div>
+           <i class="devicon-angularjs-plain" style="font-size:40px"></i>
+           </div>
         </td>
         <td class="table__cell table__cell--remainder">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
         </td>
       </tr>
-
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
-         CityLandmarks
-          <div> <img height=50px;
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png"/>
-          </div>
+         Notebook
+           <div>
+           <i class="devicon-angularjs-plain" style="font-size:40px"></i>
+           </div>
         </td>
         <td class="table__cell table__cell--remainder">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
         </td>
       </tr>
-
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
-         Pokemon
-          <div> <img height=50px;
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png"/>
-          </div>
+         SimpleBlog
+           <div>
+           <i class="devicon-react-plain" style="font-size:40px"></i>
+           </div>
         </td>
         <td class="table__cell table__cell--remainder">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
         </td>
       </tr>
-
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
          API Gateway
-          <div> <img height=50px;
-          src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Fsharp%2C_Logomark%2C_October_2014.svg/1024px-Fsharp%2C_Logomark%2C_October_2014.svg.png"/>
-          </div>
         </td>
         <td class="table__cell table__cell--remainder">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
         </td>
       </tr>
-
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
          RickAndMorty
-          <div> <img height=50px;
-          src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Fsharp%2C_Logomark%2C_October_2014.svg/1024px-Fsharp%2C_Logomark%2C_October_2014.svg.png"/>
-          </div>
         </td>
         <td class="table__cell table__cell--remainder">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
         </td>
       </tr>
-
       <tr class="table__row">
         <td class="table__cell table__cell--checkbox table__cell--no-wrap">
         </td>
         <td class="UserTable__name table__cell table__cell--no-wrap">
          NoFace
-          <div> <img height=50px;
-          src="https://cacophony.org.nz/sites/default/files/gopher.png"/>
-          </div>
         </td>
         <td class="table__cell table__cell--remainder">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora atque esse sapiente labore dolores eos iste earum beatae doloremque delectus laborum dolorum ea ipsa, nihil, obcaecati perferendis similique. Porro, inventore?</td>
         </td>
       </tr>
-
     </tbody>
   </table>
   </div>
+
 
     <footer class="site-footer">
       <h1>}</h1>
