@@ -1,6 +1,6 @@
 /* global */
 html{
-  max-width: 42em;
+  max-width: 40em;
   margin: auto;
   padding: 13px; 
 }
@@ -127,4 +127,94 @@ a:hover {
 
 .post-title {
   margin-bottom: 5px;
+}
+
+/* proj page */
+html{
+  max-width: 45em;
+  margin: auto;
+  padding: 13px; 
+}
+body {
+  font: font-weight(regular) 14px/1.5 "Roboto", sans-serif;
+}
+
+input {
+  margin: 0;
+}
+
+.container {
+  margin: 24px auto;
+  max-width: 960px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table--bordered {
+  border: 1px solid map-get($border-color, dark);
+}
+
+.table--shaded {
+  <!-- border-bottom: 2px solid #c6d5e3; -->
+}
+
+.table__head {
+  border-bottom: 2px solid #fff;
+  color: darken(#c6d5e3, 25%);
+
+  .table--shaded & {
+    background: #f7fafc;
+  }
+}
+
+.table__row {
+  &:not(:last-of-type) {
+    border-bottom: 1px solid map-get($border-color, light);
+  }
+}
+
+.table__cell {
+  padding: 16px 12px 14px;
+
+  .table__head & {
+    padding: 10px 12px 8px;
+  }
+  
+  .table--bordered &:not(:last-of-type) {
+    border-right: 1px solid map-get($border-color, light);
+  }
+  
+  .table__head & {
+    font-weight: font-weight(bold);
+  }
+}
+
+.table__cell--checkbox {
+  max-width: 50px;
+  padding;
+
+  .table__head & {
+    padding: 10px 0 8px 12px;
+  }
+}
+
+.table__cell--no-wrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table__cell--remainder {
+  width: 99%;
+}
+
+.UserTable__name {
+  max-width: 200px;
+}
+
+ol, ul {
+	list-style: none;
 }

@@ -3,11 +3,26 @@
 <head>
 	<title>Michael Barnes | Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#000" />
-  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="/css/sidenav.css">
   <link rel="stylesheet" href="/css/main.css">
+	<script src="/js/modernizr.js"></script> <!-- Modernizr -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+  <script> 
+    $(function(){
+      $("#sidenav").load("_sidenav.html"); 
+    });
+  </script>
 </head>
-  <body class="home">
+
+<body>
+
+  <div id="sidenav"></div>
+
+    <a class="cd-nav-trigger cd-img-replace">
 
     <header class="site-header">
       <h1 class="site-title"><a href="/" class="no-border fancy-font">
@@ -22,32 +37,40 @@
     </header>
 
     <div class="site-main" style="text-align:center">
-       </br>
-      <img class="img-responsive" src="http://payload337.cargocollective.com/1/12/413586/9052507/tumblr_inline_mqj3fbsc2H1rbcf9a_500.jpg">
-      <img class="img-responsive" src="http://payload337.cargocollective.com/1/12/413586/9052507/tumblr_inline_mqj1us4agW1rbcf9a_500.jpg">
-      <img class="img-responsive" src="http://payload337.cargocollective.com/1/12/413586/9052507/tumblr_inline_mqj1vuwJ3x1rbcf9a_500.jpg">
-      <img class="img-responsive" src="http://payload337.cargocollective.com/1/12/413586/9052507/tumblr_inline_mqj1w8vGXO1rbcf9a_500.jpg">
-      <img class="img-responsive" src="http://payload337.cargocollective.com/1/12/413586/9052507/tumblr_inline_mqj1xaqg3W1rbcf9a_500.jpg">
 
-       </br>
-      <img class="img-responsive" src="https://c2.staticflickr.com/6/5515/12138647006_539798a59f.jpg">
-      <img class="img-responsive" src="https://c2.staticflickr.com/8/7299/12613663643_7483fa50a8_b.jpg">
-      <img class="img-responsive" src="https://c2.staticflickr.com/4/3672/10951973786_b54d86a38d_b.jpg">
-      <img class="img-responsive" src="https://c2.staticflickr.com/6/5327/9482518783_31b8be1fda_b.jpg">
-      <img class="img-responsive" src="https://c1.staticflickr.com/9/8520/8622449209_b91e25c88a_b.jpg">
+    </a>
 
-       </br>
-      <img class="img-responsive" src="https://c1.staticflickr.com/9/8516/8532030345_1c8d17c7f5_b.jpg">
-      <img class="img-responsive" src="https://c1.staticflickr.com/9/8394/8762384330_c3d2507833_b.jpg">
-      <img class="img-responsive" src="https://c1.staticflickr.com/9/8063/8235508815_a722cb1cbc_b.jpg">
-      <img class="img-responsive" src="https://c1.staticflickr.com/9/8355/8293373622_690a008c98_b.jpg">
-      <img class="img-responsive" src="https://c1.staticflickr.com/9/8512/8533140732_ea64608ca0_b.jpg">
-      <img class="img-responsive" src="https://c1.staticflickr.com/9/8259/8705299505_f7583cd7e4_b.jpg">
+      <section id="section1" class="cd-section">
+          <img class="img-responsive" src="http://payload337.cargocollective.com/1/12/413586/9052507/tumblr_inline_mqj3fbsc2H1rbcf9a_500.jpg">
+          <img class="img-responsive" src="http://payload337.cargocollective.com/1/12/413586/9052507/tumblr_inline_mqj1us4agW1rbcf9a_500.jpg">
+          <img class="img-responsive" src="http://payload337.cargocollective.com/1/12/413586/9052507/tumblr_inline_mqj1vuwJ3x1rbcf9a_500.jpg">
+          <img class="img-responsive" src="http://payload337.cargocollective.com/1/12/413586/9052507/tumblr_inline_mqj1w8vGXO1rbcf9a_500.jpg">
+          <img class="img-responsive" src="http://payload337.cargocollective.com/1/12/413586/9052507/tumblr_inline_mqj1xaqg3W1rbcf9a_500.jpg">
+      </section>
 
-      </div>
+      <section id="section2" class="cd-section">
+          <img class="img-responsive" src="https://c2.staticflickr.com/6/5515/12138647006_539798a59f.jpg">
+          <img class="img-responsive" src="https://c2.staticflickr.com/8/7299/12613663643_7483fa50a8_b.jpg">
+          <img class="img-responsive" src="https://c2.staticflickr.com/4/3672/10951973786_b54d86a38d_b.jpg">
+          <img class="img-responsive" src="https://c2.staticflickr.com/6/5327/9482518783_31b8be1fda_b.jpg">
+          <img class="img-responsive" src="https://c1.staticflickr.com/9/8520/8622449209_b91e25c88a_b.jpg">
+      </section>
+
+      <section id="section3" class="cd-section">
+          <img class="img-responsive" src="https://c1.staticflickr.com/9/8516/8532030345_1c8d17c7f5_b.jpg">
+          <img class="img-responsive" src="https://c1.staticflickr.com/9/8394/8762384330_c3d2507833_b.jpg">
+          <img class="img-responsive" src="https://c1.staticflickr.com/9/8063/8235508815_a722cb1cbc_b.jpg">
+          <img class="img-responsive" src="https://c1.staticflickr.com/9/8355/8293373622_690a008c98_b.jpg">
+          <img class="img-responsive" src="https://c1.staticflickr.com/9/8512/8533140732_ea64608ca0_b.jpg">
+          <img class="img-responsive" src="https://c1.staticflickr.com/9/8259/8705299505_f7583cd7e4_b.jpg">
+      </section>
+
+    </div>
+
     <footer class="site-footer">
       <h1>}</h1> 
     </footer>
 
-  </body>
+  <script src="/js/sidenav.js"></script>
+ </body>
 </html>
