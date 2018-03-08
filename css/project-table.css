@@ -1,0 +1,35 @@
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table__row {
+  &:not(:last-of-type) {
+    border-bottom: 1px solid map-get($border-color, light);
+  }
+}
+
+.table__cell {
+  padding: 16px 12px 14px;
+}
+
+.table__cell--icon {
+  max-width: 50px;
+  padding;
+
+}
+
+.table__cell--no-wrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table__cell--remainder {
+  width: 99%;
+}
+
+.ProjectTable__name {
+  max-width: 200px;
+}
