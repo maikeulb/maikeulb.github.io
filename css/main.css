@@ -192,7 +192,7 @@ input {
   }
 }
 
-.table__cell--checkbox {
+.table__cell--icon {
   max-width: 50px;
   padding;
 
@@ -211,7 +211,7 @@ input {
   width: 99%;
 }
 
-.UserTable__name {
+.ProjectTablee__name {
   max-width: 200px;
 }
 
