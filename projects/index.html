@@ -40,12 +40,20 @@
             <a href="#apis" data-number="2">
               <span class="cd-dot"></span>
               <span class="cd-label">
-                <h2 style="margin:0;"> APIs </h2>
+                <h2 style="margin:0;"> RESTful APIs </h2>
               </span>
             </a>
           </li>
           <li>
-            <a href="#spas" data-number="3">
+            <a href="#poc" data-number="3">
+              <span class="cd-dot"></span>
+              <span class="cd-label">
+                <h2 style="margin:0;"> POC </h2>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#spas" data-number="4">
               <span class="cd-dot"></span>
               <span class="cd-label">
                 <h2 style="margin:0;"> SPAs</h2>
@@ -70,8 +78,9 @@
 
       <p>
 
-        <h2 style="margin:0;"> Traditional Apps </h2>
+        <h2 style="margin:0;"> Apps </h2>
         <hr/>
+        Traditional monolithic web applications.
 
         <table class="table">
 
@@ -121,6 +130,23 @@
             <tr class="table__row">
               <td class="table__cell table__cell--icon table__cell--no-wrap">
                 <div>
+                 <i class="devicon-csharp-plain" style="font-size:40px"></i>
+                </div>
+              </td>
+              <td class="ProjectTable__name table__cell table__cell--no-wrap">
+                <u><a href="#">DapperUniversity</a></u>
+                 <li>PostgreSQL</li>
+              </td>
+              <td class="table__cell table__cell--remainder"> University management system for administering students,
+                courses, departments, and instructors. I made this with
+                reference to the Contoso University sample application, but
+                swapped out EF Core for Dapper (micro ORM). <a
+                  href="#"></a></td>
+            </tr>
+
+            <tr class="table__row">
+              <td class="table__cell table__cell--icon table__cell--no-wrap">
+                <div>
                  <i class="devicon-python-plain" style="font-size:40px"></i>
                 </div>
               </td>
@@ -163,8 +189,8 @@
                 <u><a href="#">LeicaRentals</a></u>
                  <li>PostgreSQL</li>
               </td>
-              <td class="table__cell table__cell--remainder"> Backend to a
-                rental management system for managing lenses, customers and
+              <td class="table__cell table__cell--remainder"> 
+                Rental management system for managing lenses, customers and
                 rentals. 
               </td>
             </tr>
@@ -201,25 +227,7 @@
               </td>
             </tr>
 
-            <tr class="table__row">
-              <td class="table__cell table__cell--icon table__cell--no-wrap">
-                <div>
-                 <i class="devicon-csharp-plain" style="font-size:40px"></i>
-                </div>
-              </td>
-              <td class="ProjectTable__name table__cell table__cell--no-wrap">
-                <u><a href="#">DapperUniversity</a></u>
-                 <li>PostgreSQL</li>
-              </td>
-              <td class="table__cell table__cell--remainder"> Bckend to a
-                university management system for administering students,
-                courses, departments, and instructors. I made this with
-                reference to the Contoso University sample application, but
-                swapped out EF Core for Dapper (micro ORM). <a
-                  href="#"></a></td>
-            </tr>
-
-            <tr class="table__row">
+            <tr class="table__row" hidden>
               <td class="table__cell table__cell--icon table__cell--no-wrap">
                 <div>
                  <span class="devicons devicons-fsharp" style="font-size:45px"/>
@@ -243,11 +251,11 @@
     </section>
 
     <section id="apis" class="cd-section">
-
       <p>
 
-        <h2 style="margin:0;"> APIs </h2>
+        <h2 style="margin:0;"> RESTful APIs </h2>
         <hr/>
+        REST api servers. 
 
         <table class="table">
 
@@ -287,6 +295,76 @@
             <tr class="table__row">
               <td class="table__cell table__cell--icon table__cell--no-wrap">
                 <div>
+                 <i class="devicon-python-plain" style="font-size:40px"></i>
+                </div>
+              </td>
+              <td class="ProjectTable__name table__cell table__cell--no-wrap">
+                <u><a href="#">NYCLandmarks</a></u>
+                 <li>PostgreSQL</li>
+              </td>
+              <td class="table__cell table__cell--remainder"> Restful API
+                for NYC Landmarks(LPC). The resources are the boroughs and their
+                Landmarks.
+              </td> 
+            </tr>
+
+            <tr class="table__row">
+              <td class="table__cell table__cell--icon table__cell--no-wrap">
+                <div>
+                 <i class="devicon-python-plain" style="font-size:40px"></i>
+                </div>
+              </td>
+              <td class="ProjectTable__name table__cell table__cell--no-wrap">
+                <u><a href="#">FlaskUniversity</a></u>
+                 <li>PostgreSQL</li>
+              </td>
+
+              <td class="table__cell table__cell--remainder"> Restful API
+                backend for Contoso University written in Flask, with routes 
+                protected via JSON web tokens. </td> 
+            </tr>
+
+            <tr class="table__row" hidden>
+
+              <td class="table__cell table__cell--icon table__cell--no-wrap">
+               <div>
+                 <i class="devicon-go-plain" style="font-size:40px"></i>
+               </div>
+              </td>
+
+              <td class="ProjectTable__name table__cell table__cell--no-wrap">
+                <u><a href="#" hidden>NoFace</a></u>
+              </td>
+
+              <td class="table__cell table__cell--remainder">
+                <i>IN PROGRESS</i>
+              </td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+
+      </p>
+    </section>
+
+    <section id="poc" class="cd-section">
+      <p>
+        <h2 style="margin:0;"> POC </h2>
+        <hr/>
+        Simpler apps and apis exploring different concepts and technologies.
+
+        <table class="table">
+
+          <thead class="table__head">
+
+            </thead>
+          <tbody class="table__body">
+
+            <tr class="table__row">
+              <td class="table__cell table__cell--icon table__cell--no-wrap">
+                <div>
                  <i class="devicon-csharp-plain" style="font-size:40px"></i>
                 </div>
               </td>
@@ -311,13 +389,28 @@
               </td>
 
               <td class="ProjectTable__name table__cell table__cell--no-wrap">
-                <u><a href="#">Pokedex</a></u>
+                <u><a href="#">MRRobotSearch</a></u>
                  <li>ElasticSearch</li>
               </td>
 
-              <td class="table__cell table__cell--remainder"> Simple
-                application that indexes pokemon data (loaded from JSON),
-                allowing users to full-text search for pokemon. </td>
+              <td class="table__cell table__cell--remainder">TODO </td>
+
+            </tr>
+
+            <tr class="table__row">
+
+              <td class="table__cell table__cell--icon table__cell--no-wrap">
+                <div>
+                 <i class="devicon-csharp-plain" style="font-size:40px"></i>
+                </div>
+              </td>
+
+              <td class="ProjectTable__name table__cell table__cell--no-wrap">
+                <u><a href="#">CCService</a></u>
+                 <li>RabbitMQ</li>
+              </td>
+
+              <td class="table__cell table__cell--remainder">TODO </td>
 
             </tr>
 
@@ -328,47 +421,45 @@
                 </div>
               </td>
               <td class="ProjectTable__name table__cell table__cell--no-wrap">
-                <u><a href="#">NYCLandmarks</a></u>
-                 <li>PostgreSQL</li>
-              </td>
-
-              <td class="table__cell table__cell--remainder"> Restful API
-                for NYC Landmarks(LPC). The resources are the boroughs and their
-                Landmarks.
-              </td> 
-            </tr>
-
-            <tr class="table__row">
-              <td class="table__cell table__cell--icon table__cell--no-wrap">
-                <div>
-                 <i class="devicon-python-plain" style="font-size:40px"></i>
-                </div>
-              </td>
-              <td class="ProjectTable__name table__cell table__cell--no-wrap">
-                <u><a href="#">FlaskUniversity</a></u>
-                 <li>PostgreSQL</li>
-              </td>
-
-              <td class="table__cell table__cell--remainder"> Restful API
-                backend for Contoso University written in Flask. The routes are
-                protected via JSON web tokens. </td> 
-            </tr>
-
-            <tr class="table__row">
-              <td class="table__cell table__cell--icon table__cell--no-wrap">
-                <div>
-                 <i class="devicon-python-plain" style="font-size:40px"></i>
-                </div>
-              </td>
-              <td class="ProjectTable__name table__cell table__cell--no-wrap">
-                <u><a href="#">Pokemon</a></u>
+                <u><a href="#">PokeRedis</a></u>
                  <li>Redis</li>
               </td>
 
               <td class="table__cell table__cell--remainder"> Simple API
                 wrapper that consumes pokemon data from pokeapi (pokemon api)
-                and caches it with redis. </td>
+                and caches it with redis (using redis-py without additional
+                extensions). </td>
 
+            </tr>
+
+            <tr class="table__row">
+
+              <td class="table__cell table__cell--icon table__cell--no-wrap">
+                <div>
+                 <i class="devicon-python-plain" style="font-size:40px"></i>
+                </div>
+              </td>
+
+              <td class="ProjectTable__name table__cell table__cell--no-wrap">
+                <u><a href="#">TODO</a></u>
+                 <li>Celery</li>
+              </td>
+
+              <td class="table__cell table__cell--remainder">TODO </td>
+
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell table__cell--icon table__cell--no-wrap">
+                 <div>
+                   <span class="devicons devicons-fsharp" style="font-size:45px"/>
+                 </div>
+              </td>
+              <td class="ProjectTable__name table__cell table__cell--no-wrap">
+                <u><a href="#">GitHubApiGateway</a></u>
+              </td>
+              <td class="table__cell table__cell--remainder">
+                <i>IN PROGRESS</i>
+               </td>
             </tr>
 
             <tr class="table__row">
@@ -388,44 +479,10 @@
             
             </tr>
 
-            <tr class="table__row">
-              <td class="table__cell table__cell--icon table__cell--no-wrap">
-                 <div>
-                   <span class="devicons devicons-fsharp" style="font-size:45px"/>
-                 </div>
-              </td>
-              <td class="ProjectTable__name table__cell table__cell--no-wrap">
-                <u><a href="#">GitHubApiGateway</a></u>
-              </td>
-              <td class="table__cell table__cell--remainder">
-                <i>IN PROGRESS</i>
-               </td>
-            </tr>
-
-            <tr class="table__row">
-
-              <td class="table__cell table__cell--icon table__cell--no-wrap">
-               <div>
-                 <i class="devicon-go-plain" style="font-size:40px"></i>
-               </div>
-              </td>
-
-              <td class="ProjectTable__name table__cell table__cell--no-wrap">
-                <u><a href="#">NoFace</a></u>
-              </td>
-
-              <td class="table__cell table__cell--remainder">
-                <i>IN PROGRESS</i>
-              </td>
-
-            </tr>
-
           </tbody>
 
         </table>
-
       </p>
-
     </section>
 
     <section id="spas" class="cd-section">
@@ -434,6 +491,7 @@
 
         <h2 style="margin:0;"> SPAs</h2>
         <hr/>
+        Single Page Applications built with Angular or React. 
         <table class="table">
 
           <tbody class="table__body">
