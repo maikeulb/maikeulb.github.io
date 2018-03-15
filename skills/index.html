@@ -4,6 +4,14 @@
   <title>Michael Barnes | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/main.css">
+  <style>
+
+   tr td:first-child {
+      width: 25%;
+    }
+
+  </style>
+
 </head>
 
 <body>
@@ -29,12 +37,12 @@
     <ul style="list-style:none; padding:0;">
       <li><u>Proficient:</u> C# and Python</li>
       <li><u>Novice:</u> F# and Javascript/Typescript</li>
-      <li><u>Familiar:</u> C/C++, Go, and Matlab</li>
+      <li><u>Familiar:</u> C/C++, Perl, Bash, and Matlab</li>
     </ul>
 
-    <p> I first learned C/C++ for an intro to programming course, then I picked
+    <p> I first learned C/C++ for an intro to programming course, then picked
       up Matlab for structural analysis, finite-element analysis, and numerical
-      analysis coursework (all at the graduate level). I'm now focusing on C#,
+      analysis coursework (all at the graduate level). Now I'm focusing on C#,
       F#, and Python for web development. </p>
 
     <h3>Backend</h3>
@@ -44,25 +52,14 @@
       <li><u>Novice:</u> Suave.io and Express</li>
     </ul>
 
-    <p> My preferred backends are ASP.NET Core and Flask but I've also worked with Suave.io and
-      Express. I'm comfortable building Traditional Web Apps and Restful APIs with
-      features that include authorization (including role-based access control)
-      and authentication (session-based and token-based), localization, admin
-      dashboards, and caching (HTTP, in-memory, and distributed).</p>
-
-    <p>I mostly use PostgreSQL and Redis for persistence but I've also used
-      MySQL, MongoDB, and ElasticSearch. I'm comfortable working with SQL and
-      micro-ORMS (Dapper) and have some experience employing full-text
-      search.</p>
-
-    <p>I'm familiar with message-queueing. I have limited experience using
-      RabbitMQ as a message broker and Celery for asynchronous tasks</p>
-
+    <p>My preferred backend is ASP.NET Core or Flask. Comfortable with
+      relational databases (PostgreSQL, MySQL) and NoSQL databases (Redis,
+      MongoDb, ElasticSearch).</p>
 
     <h3>Frontend</h3>
 
     <ul style="list-style:none; padding:0;">
-      <li><u>Familiar:</u> Angular, and React</li>
+      <li><u>Familiar:</u> Angular and React</li>
     </ul>
 
     <p> Bootstrap 4, Semantic UI, or UI Kit with JQuery for traditional web
@@ -76,11 +73,28 @@
       permissions, network diagnostics).
     </p>
 
-    <h3>Deployment</h3>
+    <h3>Infrastructure</h3>
 
     <p> Docker containers orchestrated with docker-compose running on Digital
       Ocean droplets (virtual machines) behind Nginx.
     </p>
+
+    <h3 hidden>Technologies</h3>
+
+    <p hidden> 
+      <table hidden>
+        <tbody>
+          <tr>
+            <td>Backend</td>
+            <td>EF Core 2.0, Dapper, Marten, Nest, SQLAlchemy, Mongoose,
+              TypeORM, RabbitMQ, FAKE</td>
+          </tr>
+           <tr>
+            <td>Frontend</td>
+            <td>Webpack, JQuery, Ngrx, Redux, RxJS</td>
+          </tr>
+        <tbody>
+      </table>
 
   </div>
 
