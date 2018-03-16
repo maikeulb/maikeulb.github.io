@@ -69,11 +69,8 @@
 
       <p>
         
-        Click on the project names to view the <u>source</u> and <u>README</u>
-        (detailing tech stack and application features)
-        on Github. Dockerfiles are generally available and/or build
-        instructions.
-
+        <u>Dockerfiles</u> and/or build instructions are generally available on
+        Github. 
       </p>
 
     <section id="apps" class="cd-section">
@@ -102,10 +99,11 @@
 
               </td>
 
-              <td class="table__cell table__cell--remainder"> 
+              <td class="table__cell table__cell--remainder"> Social network
+                where users showcase their photography exhibits and attend
+                other users' exhibits. Admin users can manage the content and
+                application users.
 
-                Social network where users showcase their
-                photography exhibits and attend other users' exhibits. 
                 <br><a href="#">live</a> | <a href="#">src</a>
               </td>
 
@@ -128,7 +126,8 @@
               <td class="table__cell table__cell--remainder"> E-commerce
                 application allowing customers to browse a catalog of cameras, add
                 them to their shopping cart, make orders, and view their order
-                history. 
+                history. Admin users can manage the catalog.
+
                 <br><a href="#">live</a> | <a href="#">src</a>
               </td>
 
@@ -144,12 +143,14 @@
                 <b>DapperUniversity</b>
                  <li>PostgreSQL</li>
               </td>
-              <td class="table__cell table__cell--remainder"> University management system for administering students,
-                courses, departments, and instructors. I made this with
-                reference to the Contoso University sample application, but
-                swapped out EF Core for Dapper (micro ORM).
-                <br><a href="#">src</a>
-              </td>
+
+              <td class="table__cell table__cell--remainder"> University
+                management system for administering students, courses,
+                departments, and instructors. Made with reference to the
+                Contoso University sample application but with Dapper (micro
+                ORM) instead of EF Core. 
+
+                <br><a href="#">src</a> </td>
             </tr>
 
             <tr class="table__row">
@@ -162,9 +163,11 @@
                 <b>Filmogram</b>
                  <li>PostgreSQL</li>
               </td>
-              <td class="table__cell table__cell--remainder">
-                Instagram/Flickr clone where users share their favorite
-                photos with other users.
+
+              <td class="table__cell table__cell--remainder"> Instagram/Flickr
+                clone where users share their favorite photos with other users.
+                Admin users can manage the content.
+
                 <br><a href="#">live</a> | <a href="#">src</a>
               </td>
             </tr>
@@ -184,6 +187,8 @@
               <td class="table__cell table__cell--remainder"> E-commerce
                 application allowing customers to browse a catalog of
                 stationary items, add them to a shopping cart, and make orders.
+                Admin users can manage the catalog.
+
                 <br><a href="#">live</a> | <a href="#">src</a>
               </td>
 
@@ -198,10 +203,13 @@
               <td class="ProjectTable__name table__cell table__cell--no-wrap">
                 <b>LeicaRentals</b>
                  <li>PostgreSQL</li>
+                 <li>Celery</li>
+                 <li>Redis</li>
               </td>
-              <td class="table__cell table__cell--remainder"> 
-                Rental management system for managing lenses, customers and
-                lens rentals. 
+
+              <td class="table__cell table__cell--remainder"> Rental management
+                system for managing lenses and customers, with the ability
+                to rent/return lenses and send out newsletters.
                 <br><a href="#">src</a>
               </td>
             </tr>
@@ -218,9 +226,25 @@
               </td>
 
               <td class="table__cell table__cell--remainder"> Twitter clone
-                where users share growls(tweets) with other users.
+                where users share growls (tweets) with other users.
                 <br><a href="#">src</a>
                </td>
+            </tr>
+
+            <tr class="table__row">
+              <td class="table__cell table__cell--icon table__cell--no-wrap">
+                <div>
+                 <span class="devicons devicons-fsharp" style="font-size:45px"/>
+                </div>
+              </td>
+              <td class="ProjectTable__name table__cell table__cell--no-wrap">
+                <b>PointAndShoot</b>
+                 <li>PostgreSQL</li>
+              </td>
+              <td class="table__cell table__cell--remainder">
+                <i>IN PROGRESS</i></br>
+                <br><a href="#">src</a>
+              </td>
             </tr>
 
             <tr class="table__row">
@@ -236,22 +260,6 @@
               <td class="table__cell table__cell--remainder"> Rangefinder review
                 application where users read, comment, and post rangefinder
                 reviews.
-                <br><a href="#">src</a>
-              </td>
-            </tr>
-
-            <tr class="table__row">
-              <td class="table__cell table__cell--icon table__cell--no-wrap">
-                <div>
-                 <span class="devicons devicons-fsharp" style="font-size:45px"/>
-                </div>
-              </td>
-              <td class="ProjectTable__name table__cell table__cell--no-wrap">
-                <u><a href="#">PointAndShoot</a></u>
-                 <li>PostgreSQL</li>
-              </td>
-              <td class="table__cell table__cell--remainder">
-                <i>IN PROGRESS</i>
                 <br><a href="#">src</a>
               </td>
             </tr>
@@ -391,8 +399,8 @@
                  <li>Redis</li>
               </td>
 
-              <td class="table__cell table__cell--remainder"> API
-                wrapper that consumes starship data from swapi (star wars api) and caches it
+              <td class="table__cell table__cell--remainder"> API wrapper that
+                consumes starship data from swapi (star wars api) and caches it
                 with redis.
                 <br><a href="#">src</a>
               </td>
@@ -412,7 +420,9 @@
                  <li>ElasticSearch</li>
               </td>
 
-              <td class="table__cell table__cell--remainder">TODO </td>
+              <td class="table__cell table__cell--remainder">TODO
+                <br><a href="#">src</a>
+            </td>
 
             </tr>
 
@@ -429,7 +439,10 @@
                  <li>RabbitMQ</li>
               </td>
 
-              <td class="table__cell table__cell--remainder">TODO: Raw Rabbit</td>
+              <td class="table__cell table__cell--remainder">TODO: Raw
+                Rabbit
+                <br><a href="#">src</a>
+              </td>
 
             </tr>
 
@@ -446,8 +459,7 @@
 
               <td class="table__cell table__cell--remainder"> API
                 wrapper that consumes pokemon data from pokeapi (pokemon api)
-                and caches it with redis (using redis-py without additional
-                extensions).
+                and caches it with redis (using redis-py).
                 <br><a href="#">src</a>
                </td>
             </tr>
@@ -461,17 +473,21 @@
               </td>
 
               <td class="ProjectTable__name table__cell table__cell--no-wrap">
-                <b>BikeRoute</b>
-                 <li>Celery</li>
+                <b>ElasticBlog</b>
+                 <li>ElasticSearch</li>
+                 <li>PostgreSQL</li>
               </td>
 
-              <td class="table__cell table__cell--remainder">TODO: Optimize
-                Bike routes to test out background workers. (This is a
-                contrived example; the "optimization" is just a timer).</td>
+              <td class="table__cell table__cell--remainder"> Mini Blog Engine
+                that incorporates elasticsearch (using elasticsearch-py
+                client), utilizing multi_match weighted queries across post
+                fields.
+                <br><a href="#">src</a>
+              </td>
 
             </tr>
 
-            <tr class="table__row">
+            <tr class="table__row" hidden>
 
               <td class="table__cell table__cell--icon table__cell--no-wrap">
                 <div>
@@ -480,15 +496,16 @@
               </td>
 
               <td class="ProjectTable__name table__cell table__cell--no-wrap">
-                <b>ElasticBlog</b>
-                 <li>ElasticSearch</li>
+                <b>BikeRoute</b>
+                 <li>Celery</li>
               </td>
 
-              <td class="table__cell table__cell--remainder">
-                TODO
+              <td class="table__cell table__cell--remainder">TODO: Optimize
+                Bike routes with Celery. (This is a contrived example; the
+                "optimization" is crude and exaggerated with a timer).
               </td>
-
             </tr>
+
             <tr class="table__row">
               <td class="table__cell table__cell--icon table__cell--no-wrap">
                  <div>
@@ -501,8 +518,8 @@
               </td>
 
               <td class="table__cell table__cell--remainder"> Restful API
-                prepopulated with data from the rick and morty api. This is
-                mostly an exploration of F# type providers.
+                that prepopulates prepopulated with data from the rick and morty api using
+                JsonProvider.
                 <br><a href="#">src</a>
               
               </td>
@@ -519,7 +536,7 @@
                 <b>GitHubApiGateway</b>
               </td>
               <td class="table__cell table__cell--remainder">
-                API gateway for Github, built with RX
+                API gateway for Github implimented with Reactive Extensions (Rx).
                 <br><a href="#">src</a>
                </td>
             </tr>
@@ -569,7 +586,7 @@
                  <li>Firebase</li>
               </td>
               <td class="table__cell table__cell--remainder">
-                Shopping cart app for ilford films.
+                Shopping cart app for ilford films.</br>
                 <a href="#">live</a> | <a href="#">src</a>
               </td>
             </tr>
