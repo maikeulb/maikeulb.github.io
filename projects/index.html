@@ -69,15 +69,15 @@
 
       <p>
         
-        <u>Dockerfiles</u> and/or build instructions are generally available on
-        Github. 
+        <u>Dockerfiles</u> and/or build instructions are avilable on Github. 
+
       </p>
 
-    <section id="apps" class="cd-section">
+    <section id="apps" class="cd-section" style="padding-top:10px">
 
       <p>
 
-        <h2 style="margin:0;"> Apps </h2>
+        <h3 style="margin:0;"> Apps </h3>
         <hr/>
         Traditional monolithic web applications.
 
@@ -101,7 +101,7 @@
 
               <td class="table__cell table__cell--remainder"> Social network
                 where users showcase their photography exhibits and attend
-                other users' exhibits. Admin users can manage the content and
+                other users' exhibits. Admin users can manage the site-content and
                 application users.
 
                 <br><a href="#">live</a> | <a href="#">src</a>
@@ -124,9 +124,9 @@
               </td>
 
               <td class="table__cell table__cell--remainder"> E-commerce
-                application allowing customers to browse a catalog of cameras, add
-                them to their shopping cart, make orders, and view their order
-                history. Admin users can manage the catalog.
+                application where users can browse the catalog, manage their
+                shopping cart, make orders, and review their order history.
+                Admin users can manage the catalog.
 
                 <br><a href="#">live</a> | <a href="#">src</a>
               </td>
@@ -166,7 +166,7 @@
 
               <td class="table__cell table__cell--remainder"> Instagram/Flickr
                 clone where users share their favorite photos with other users.
-                Admin users can manage the content.
+                Admin users can manage the site content.
 
                 <br><a href="#">live</a> | <a href="#">src</a>
               </td>
@@ -185,9 +185,9 @@
               </td>
 
               <td class="table__cell table__cell--remainder"> E-commerce
-                application allowing customers to browse a catalog of
-                stationary items, add them to a shopping cart, and make orders.
-                Admin users can manage the catalog.
+                application where users can browse the catalog, manage their
+                shopping cart, and make orders. Admin users can manage the
+                catalog.
 
                 <br><a href="#">live</a> | <a href="#">src</a>
               </td>
@@ -275,7 +275,7 @@
     <section id="apis" class="cd-section">
       <p>
 
-        <h2 style="margin:0;"> RESTful APIs </h2>
+        <h3 style="margin:0;"> RESTful APIs </h3>
         <hr/>
         REST api servers. 
 
@@ -307,12 +307,18 @@
                 </div>
               </td>
               <td class="ProjectTable__name table__cell table__cell--no-wrap">
-                <b>BLOG backend</b>
-                 <li>PostgreSQL</li>
+                <b>Bloggy</b>
+                <li>
+                  PostgreSQL
+                </li>
               </td>
-              <td class="table__cell table__cell--remainder"> TODO
+
+              <td class="table__cell table__cell--remainder"> Restful API
+                backend for a mini blog engine with a token-based
+                authentication system (using JWTs).
                 <br><a href="#">src</a>
               </td>
+
             </tr>
 
             <tr class="table__row">
@@ -325,9 +331,11 @@
                 <b>Landmarks</b>
                  <li>PostgreSQL</li>
               </td>
-              <td class="table__cell table__cell--remainder"> Restful API
-                for NYC Landmarks(LPC). The resources are the boroughs and their
+
+              <td class="table__cell table__cell--remainder"> Restful API for
+                NYC Landmarks(LPC). The resources are the boroughs and their
                 Landmarks.
+
                 <br><a href="#">src</a>
               </td> 
             </tr>
@@ -344,10 +352,11 @@
               </td>
 
               <td class="table__cell table__cell--remainder"> Restful API
-                backend for Contoso University written in Flask, with routes 
-                protected via JSON web tokens.
+                backend for Contoso University sample application written in
+                Flask with a token-based authentication system (using JWTs).
                 <br><a href="#">src</a>
               </td>
+
             </tr>
 
             <tr class="table__row" hidden>
@@ -377,7 +386,7 @@
 
     <section id="poc" class="cd-section">
       <p>
-        <h2 style="margin:0;"> POC </h2>
+        <h3 style="margin:0;"> POC </h3>
         <hr/>
          Exploring isolated concepts and technologies.
 
@@ -401,7 +410,7 @@
 
               <td class="table__cell table__cell--remainder"> API wrapper that
                 consumes starship data from swapi (star wars api) and caches it
-                with redis.
+                with Redis.
                 <br><a href="#">src</a>
               </td>
 
@@ -421,13 +430,14 @@
               </td>
 
               <td class="table__cell table__cell--remainder"> Search engine
-                (using NEST elasticsearch client) that performs multi match
-                weighted queries against pokemon data (loaded from JSON).
+                (using NEST client) that queries (full-text multi-match)
+                indexed pokemon data (loaded from JSON).
+
                 <br><a href="#">src</a> </td>
 
             </tr>
 
-            <tr class="table__row">
+            <tr class="table__row" hidden>
 
               <td class="table__cell table__cell--icon table__cell--no-wrap">
                 <div>
@@ -460,7 +470,7 @@
 
               <td class="table__cell table__cell--remainder"> API wrapper that
                 consumes pokemon data from pokeapi (pokemon api) and caches it
-                with redis (using redis-py).
+                with Redis (using redis-py).
                 <br><a href="#">src</a>
 
                </td>
@@ -482,7 +492,7 @@
 
               <td class="table__cell table__cell--remainder"> Mini Blog Engine
                 that utilizes Elasticsearch (using elasticsearch-py client) to
-                perform multi match weighted queries against blog posts.
+                index and query (full-text multi-match) blog posts.
 
                 <br><a href="#">src</a>
               </td>
@@ -520,8 +530,8 @@
               </td>
 
               <td class="table__cell table__cell--remainder"> Restful API
-                that prepopulates prepopulated with data from the rick and morty api using
-                JsonProvider.
+                that prepopulates prepopulated with data from the rick and
+                morty api.
                 <br><a href="#">src</a>
               
               </td>
@@ -553,9 +563,9 @@
 
       <p>
 
-        <h2 style="margin:0;"> SPAs</h2>
+        <h3 style="margin:0;"> SPAs</h3>
         <hr/>
-        Single Page Applications built with Angular or React. 
+        Single Page Applications.
         <table class="table">
 
           <tbody class="table__body">
@@ -654,7 +664,9 @@
       </p>
 
     </section>
-
+    <div hidden>
+      good readmes: equinox, eshop, econ, realworld; app academy kids
+      </div>
   </div>
 
   <footer class="site-footer">

@@ -6,8 +6,16 @@
   <link rel="stylesheet" href="/css/main.css">
   <style>
 
-   tr td:first-child {
+    tr td:first-child {
       width: 25%;
+    }
+
+    td {
+      vertical-align: top;
+    }
+
+    tr.space-under>td {
+      padding-bottom: 1em;
     }
 
   </style>
@@ -26,11 +34,10 @@
       <a href="/projects">projects</a> | 
       <a href="/art/"> art</a> */
     </p>
+
   </header>
 
   <div class="site-main" style="padding-left: 30px;">
-
-    <h2>SKILLS</h2>
 
     <h3>Languages</h3>
 
@@ -40,22 +47,34 @@
       <li><u>Familiar:</u> C/C++, Perl, Bash, Go, and Matlab</li>
     </ul>
 
-    <p> I first learned C/C++ for an intro to programming course, then picked
+    <p> First learned C/C++ for an intro to programming course, then picked
       up Matlab for structural analysis, finite-element analysis, and numerical
-      analysis coursework (all at the graduate level). Now I'm focusing on C#,
-      F#, and Python.</p>
+      analysis coursework (all at the graduate level). Now I'm focusing on
+      writing web servers with C#, Python, F#, and Go. </p>
 
     <h3>Backend</h3>
 
     <ul style="list-style:none; padding:0;">
-      <li><u>Proficient:</u> ASP.NET Core and Flask <b>|</b> PostgreSQL and Redis</li>
-      <li><u>Novice:</u> Suave.io and Express <b>|</b> MySQL and ElasticSearch</li>
-      <li><u>Familiar:</u> MongoDB <b>|</b> RabbitMQ and Celery</li>
+      <li><u>Proficient:</u> ASP.NET Core and Flask</li> 
+      <li><u>Novice:</u> Suave.io and Express</li>
+      <li><u>Familiar:</u> Go, RabbitMQ and Celery</li>
+    </ul>
+
+    <p>Experienced with ASP.NET Core and Flask; currently learning Suave.io and
+      Go. Familiarity with distributed messaging and backround workers.</p>
+
+    <h3>Backend</h3>
+
+    <ul style="list-style:none; padding:0;">
+      <li><u>Proficient:</u>PostgreSQL and Redis</li>
+      <li><u>Novice:</u> MySQL and ElasticSearch</li>
+      <li><u>Familiar:</u> MongoDB and Firebase</li>
     </ul>
 
     <p>Comfortable with relational databases, key-value stores and
-      ElasticSearch. Familiar with document databases and distributed message
-      passing.</p>
+      ElasticSearch as a search engine; familiar with document databases and
+      distributed message passing; familiar with Firebase as a NoSQL database
+      for SPAs</p>
 
     <h3>Frontend</h3>
 
@@ -64,10 +83,9 @@
       <li><u>Familiar:</u> Angular and React/Redux</li>
     </ul>
 
-    <p>Bootstrap 4 | Semantic UI | UI Kit with JQuery, or Bulma |
-      Spectre | Sakura with vanilla Javascript. I manage my
-      assets with webpack but opt for CDNs and embedded Javascripts for simpler
-      applications. </p>
+    <p>Bootstrap 4 | Semantic UI | UI Kit with JQuery; or Bulma | Spectre |
+      Sakura with vanilla Javascript. Assets managed webpack, or CDNs and
+      embedded Javascripts for simple applications. </p>
 
     <h3>Development Environment</h3>
 
@@ -83,23 +101,42 @@
       Ocean droplets (virtual machines) behind Nginx.
     </p>
 
-    <h3 hidden>Technologies</h3>
+    <h3 >Summary</h3>
 
-    <p hidden> 
-      <table hidden>
+    <p> Summary of languages/technologies I'm comfortable with.</p>
+
+    <p> 
+      <table >
         <tbody>
-          <tr>
+          <tr class="space-under">
+            <td>Languages</td>
+            <td>C#, F#, Python, Javascript/Typescript, and Go
+            </td>
+          </tr>
+          <tr class="space-under">
             <td>Backend</td>
-            <td>EF Core 2.0, Dapper, Marten, Nest, SQLAlchemy, Mongoose,
-              TypeORM, RabbitMQ, FAKE</td>
+            <td>ASP.NET Core, Suave.io, Flask, Express/TypeScript, and Go |
+              RabbitMQ, and Celery
+            </td>
+          </tr>
+          <tr class="space-under">
+            <td>Databases</td>
+            <td>PostgreSQL, MySQL, Redis, ElasticSearch, and Firebase
+            </td>
+          </tr>
+          <tr class="space-under">
+            <td>Database Mappers and Clients</td>
+            <td>EF Core 2.0, Dapper, Marten and Nest | SQLProvider | SQLAlchemy,
+              elasticsearch-py and redis-py | Mongoose and TypeORM 
+            </td>
           </tr>
            <tr>
             <td>Frontend</td>
-            <td>Webpack, JQuery, Ngrx, Redux, RxJS</td>
+            <td>Angular and React | JQuery, Ngrx, Redux, and RxJS | Webpack</td>
           </tr>
         <tbody>
       </table>
-
+    </p> 
       <div hidden>TODO: gokhan-gkalp, damienbod, damyon, chsakell, enterprisecraftsmanship,
         aspnetmonsters, </div>
   </div>
