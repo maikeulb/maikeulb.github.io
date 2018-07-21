@@ -1,0 +1,103 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Michael Barnes}
+
+\basicInfo{
+  \email{michael.sergio.barnes@gmail.com} \textperiodcentered\ 
+  \phone{(626)-833-3995} \textperiodcentered\ 
+  \github[msbarnes]{https://www.github.com/msbarnes}}
+
+\section{\faUsers\ Projects}
+\datedsubsection{\textbf{Filmogram}}
+\role{Python, Javascript, Flask, PostgreSQL, UI Kit, Docker, Nginx}
+Social network for film photographers: users share their favorite photos with
+other users.
+\begin{itemize}
+  \item Implemented activity feed, profile, photo post, user discovery, photo
+          favorites, user following, and
+          admin features.
+  \item Deployed onto Digital Ocean droplet (virtual machine) with Spaces
+          (object storage) and SSL encryption (Lets Encrypt). 
+\end{itemize}
+
+\datedsubsection{\textbf{PhotoExhibiter}}
+\role{C#, Javascript, ASP.NET Core, MySQL, Bootstrap 4, Docker, Nginx}
+Social network for photo enthusiasts: users showcase their photography exhibits
+and attend other users' exhibits.
+\begin{itemize}
+  \item Implemented activity feed, profile, exhibit post, exhibit attendance, and admin
+          features following CQRS/DDD methodology.
+  \item Deployed onto Digital Ocean droplet (virtual machine) with Docker.
+\end{itemize}
+
+\datedsubsection{\textbf{ShotOnZeiss}}
+\role{Javascript, React/Redux, Ant-Design Firebase}
+Social network for Zeiss lovers: users share their favorite photos takenw ith
+Zeiss lenses.
+\begin{itemize}
+  \item Implemented activity feed, profile, photo upload, attendance, and admin
+          features.
+  \item Deployed with Firebase Hosting.
+\end{itemize}
+
+
+\section{\faUsers\ Employment}
+
+\datedsubsection{\textbf{Gilsanz Murray Steficek} New York City, New York}{Fall 2013 -- Summer 2017}
+\role{Senior Structural Engineer }
+\begin{itemize}
+  \item Lead structural design, analysis, and construction administration of the Woolworth Building for the
+          multi-million dollar luxury condo rennovation. 
+  \item Performed Seismic risk analysis of the National Institute of Health (NIH)
+\end{itemize}
+
+\datedsubsection{\textbf{University of California, Berkeley} Berkeley,
+        California}{Fall 2010 -- Summer 2013}
+\role{Graduate Student Researcher } {Advisor: Anil K. Chopra}
+Finite Element Analysis of Dam Structures using LS-DYNA and EACD.
+\begin{itemize}
+  \item Help develop dam analysis methodology for the United States Bureau of
+          Reclamation (USBR).
+\end{itemize}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: C#, Java, Python, Javascript/Typescript, Go, F#, SQL
+  \item Frameworks: ASP.NET Core, Flask, Express, React, Suave.io
+  \item Database Technologies: PostgreSQL, MySQL, MongoDB, Redis
+  \item Infrastructure: Digital Ocean Droplets and Spaces, Nginx, and Docker
+\end{itemize}
+
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{University of California, Berkeley, CA}}{2009 -- 2010}
+\textit{M.S } in Civil Engineering (Structures Emphasis), GPA: 3.6
+National Science Foundation Graduate Researcher Fellowship (NSF GRFP)
+Berkeley Chancellors Fellowship
+\datedsubsection{\textbf{University of California, San Diego}, La Jolla, CA}{2009 -- 2013}
+\textit{B.S.} in Structural Engineering, Major GPA: 3.7
+
+\section{\faInfo\ Miscellaneous}
+\begin{itemize}[parsep=0.5ex]
+  \item Portfolio: http://maikeulb.blog.me
+  \item GitHub: https://github.com/username
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
