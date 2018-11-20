@@ -1,3 +1,3 @@
 # My Portfolio
 
-WIP Portfolio website.
+Portfolio website.
