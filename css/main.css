@@ -10,6 +10,7 @@ body{
 	font-family: monospace;
 }
 img {
+  width: 100%; 
   max-width: 500px; 
 }
 a {
