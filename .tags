@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	awesome-cv/Makefile	/^CC = xelatex$/;"	m
+CV_DIR	awesome-cv/Makefile	/^CV_DIR = examples\/cv$/;"	m
+CV_SRCS	awesome-cv/Makefile	/^CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')$/;"	m
+EXAMPLES_DIR	awesome-cv/Makefile	/^EXAMPLES_DIR = examples$/;"	m
+PDFS	resume/Makefile	/^PDFS = $(SRC:.tex=.pdf)$/;"	m
+RESUME_DIR	awesome-cv/Makefile	/^RESUME_DIR = examples\/resume$/;"	m
+RESUME_SRCS	awesome-cv/Makefile	/^RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')$/;"	m
+RM	resume/Makefile	/^  RM = cmd \/\/C del$/;"	m
+RM	resume/Makefile	/^  RM = rm -f$/;"	m
+SRC	resume/Makefile	/^SRC = $(wildcard *.tex)$/;"	m
+argv	resume/scripts/fs_sty.py	/^from sys import argv$/;"	i
+camel_case	resume/scripts/fs_sty.py	/^def camel_case(name):$/;"	f
+faCode Projects	resume/resume.tex	/^\\section{\\faCode\\ Projects}$/;"	s
+faCogs Skills	resume/resume.tex	/^\\section{\\faCogs\\ Skills}$/;"	s
+faGraduationCap Education	resume/resume.tex	/^\\section{\\faGraduationCap\\ Education}$/;"	s
+faGraduationCap Education	resume/resume_photo.tex	/^\\section{\\faGraduationCap\\ Education}$/;"	s
+faInfo Miscellaneous	resume/resume_photo.tex	/^\\section{\\faInfo\\ Miscellaneous}$/;"	s
+faUsers Employment	resume/resume.tex	/^\\section{\\faUsers\\ Employment}$/;"	s
+faUsers Experience	resume/resume_photo.tex	/^\\section{\\faUsers\\ Experience}$/;"	s
+fil_iccode	resume/scripts/fs_sty.py	/^def fil_iccode(line):$/;"	f
+fil_icname	resume/scripts/fs_sty.py	/^def fil_icname(line):$/;"	f
+get_icons	resume/scripts/fs_sty.py	/^def get_icons(fs_css):$/;"	f
+icons	resume/scripts/fs_sty.py	/^    icons = get_icons(css)$/;"	v
+os	resume/scripts/fs_sty.py	/^import os$/;"	i
+output_sty	resume/scripts/fs_sty.py	/^def output_sty(sty, icons):$/;"	f
+re	resume/scripts/fs_sty.py	/^import re$/;"	i
+sty	resume/scripts/fs_sty.py	/^    sty = os.path.join(temp_dir, "fontawesome.sty")$/;"	v
+temp_dir	resume/scripts/fs_sty.py	/^    temp_dir = os.path.dirname(css)$/;"	v
