@@ -1,0 +1,19 @@
+.employer-date {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px
+  padding: 0px
+}
+
+.experience-title {
+  line-height: 0px;
+  margin: 0px
+  padding: 0px
+}
+
+.experience-title h2 {
+  display:inline;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
